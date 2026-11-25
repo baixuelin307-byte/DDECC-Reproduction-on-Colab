@@ -1,4 +1,7 @@
-# DDECC reproduction
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+ DDECC reproduction
 
 Reproduction of *Denoising Diffusion Error Correction Codes* (Choukroun & Wolf, ICLR 2023)
 with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 6 dB.
@@ -7,7 +10,16 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 - Test: per Eb/N0, until > 500 frame errors and > 1e5 frames, or 1e7 frames;
   regular and line-search reverse diffusion; metric −ln(BER), higher is better
 
-### Regular reverse diffusion: −ln(BER)
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+ Regular reverse diffusion: −ln(BER)
 
 | Code | 4 dB | 5 dB | 6 dB |
 |---|---|---|---|
@@ -26,7 +38,16 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 | MACKAY(96,48) | 8.21 | 11.85 | 15.46 |
 | CCSDS(128,64) | 7.88 | 12.42 | 17.41 |
 
-### Line-search reverse diffusion: −ln(BER)
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+ Line-search reverse diffusion: −ln(BER)
 
 | Code | 4 dB | 5 dB | 6 dB |
 |---|---|---|---|
@@ -45,13 +66,25 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 | MACKAY(96,48) | 7.86 | 11.51 | 15.37 |
 | CCSDS(128,64) | 7.66 | 12.05 | 17.44 |
 
-## Comparison with the DDECC paper (N = 6, d = 128)
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+ Comparison with the DDECC paper (N = 6, d = 128)
 
 ![regular](figures/vs_paper_reg.png)
 
 ![line search](figures/vs_paper_LS.png)
 
-## Contents
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+#
+¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+
+ Contents
 
 | folder | content |
 |---|---|

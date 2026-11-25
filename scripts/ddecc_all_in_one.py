@@ -28,6 +28,7 @@ RETRAIN = {}            # e.g. {("BCH", 63, 36): 1, ("POLAR", 128, 86): 1}  -> c
 EBNO = [4, 5, 6]
 TEST_MODES = ["reg", "LS"]
 MIN_FER, MIN_FRAMES, MAX_FRAMES = 500, 1e5, 1e7
+STRICT_500 = False      # True: points that stopped with < 500 frame errors (old tests) are tested again in step 5
 TEST_BATCH, SEED, SAVE_EVERY_S = 2048, 42, 120
 # ======================================================================
 
@@ -64,6 +65,15 @@ def name(c):
     return f"{c[0]}({c[1]},{c[2]})"
 
 
+def folder_time(p):
+    # run folders end with __DD_MM_YYYY_HH_MM_SS: order by that time, not by Drive's file dates
+    m = re.search(r"__(\d\d)_(\d\d)_(\d{4})_(\d\d)_(\d\d)_(\d\d)$", Path(p).name)
+    if m:
+        d, mo, y, h, mi, s = map(int, m.groups())
+        return (y, mo, d, h, mi, s)
+    return (0,) * 6
+
+
 def tag(c):
     return f"{c[0]}_{c[1]}_{c[2]}"
 
@@ -93,7 +103,7 @@ def find_model(c):
     e = dict(dir=str(d), seed=seed)
     if (d / "train_done.txt").exists() and (d / "best_model").exists():
         return {**e, "state": "trained", "model": str(d / "best_model"), "src": "new"}
-    old = sorted(ROOT.glob(f"{t}__Code_n_{n}_k_{k}__*"), key=lambda p: p.stat().st_mtime)
+    old = sorted(ROOT.glob(f"{t}__Code_n_{n}_k_{k}__*"), key=folder_time)
     if c not in RETRAIN:
         done = [x for x in old if (x / "best_model").exists() and max_epoch(x) >= EPOCHS]
         if done:
@@ -164,7 +174,8 @@ def _main_section(txt, section):
         mf = re.search(rf"Test EbN0={e}, FER_DDPM=\[([^\]]*)\]", seg)
         if mb and mf and e in EBNO:
             fr = frames[idx] if idx < len(frames) else None
-            out[e] = dict(ber=nums(mb.group(1))[-1], fer=nums(mf.group(1))[-1], frames=fr, fe=None, done=True)
+            fer = nums(mf.group(1))[-1]
+            out[e] = dict(ber=nums(mb.group(1))[-1], fer=fer, frames=fr, fe=round(fer * fr) if fr else None, done=True)
     return out
 
 
@@ -172,7 +183,7 @@ def res_main_logs(c, model):
     t, n, k = c
     mdir = Path(model).parent
     texts = [(read(mdir / "logging.txt"), mdir.name + "/logging.txt")]
-    for d in sorted(ROOT.glob(f"{t}__Code_n_{n}_k_{k}__*"), key=lambda p: p.stat().st_mtime, reverse=True):
+    for d in sorted(ROOT.glob(f"{t}__Code_n_{n}_k_{k}__*"), key=folder_time, reverse=True):
         if d != mdir and f"resume='{model}'" in read(d / "logging.txt"):
             texts.append((read(d / "logging.txt"), d.name + "/logging.txt"))   # old "test only" runs
     for lf in ROOT.glob(f"{t}_n{n}_k{k}_N*_d*.log"):
@@ -184,7 +195,9 @@ def res_main_logs(c, model):
     for txt, src in texts:
         for mode, sec in MODE_NAME.items():
             for e, v in _main_section(txt, sec).items():
-                out.setdefault((mode, e), {**v, "src": src})
+                v = {**v, "src": src}
+                if (mode, e) not in out or rank(v) > rank(out[(mode, e)]):
+                    out[(mode, e)] = v
     return out
 
 
@@ -219,9 +232,40 @@ def results(c, m):
     out = {}
     for src in sources:
         for key, v in src.items():
-            if key not in out or (v["done"] and not out[key]["done"]):
+            if key not in out or rank(v) > rank(out[key]):
                 out[key] = v
     return out
+
+
+def protocol_ok(r):
+    # DDECC paper: >= 500 frame errors (and >= 1e5 frames); the 1e7-frame cap ends a point too.
+    # None = unknown (an old Main.py log without the frame count)
+    if not r["done"]:
+        return False
+    if r["fe"] is None and r["frames"] is None:
+        return None
+    return (r["fe"] or 0) >= MIN_FER or (r["frames"] or 0) >= MAX_FRAMES
+
+
+def rank(r):
+    # when one point was tested several times: finished > unfinished, then the protocol-compliant
+    # one (known > unknown > below 500 errors), then the one with more frame errors
+    ok = protocol_ok(r)
+    return (r["done"], 2 if ok else 1 if ok is None else 0, r["fe"] or 0, r["frames"] or 0)
+
+
+def is_done(r):
+    return bool(r) and r["done"] and (protocol_ok(r) is not False if STRICT_500 else True)
+
+
+def mark(r):
+    # ✓ finished; ✓? finished, frame count unknown; ✓¹ finished with < 500 errors; … unfinished; — none
+    if not r:
+        return "—"
+    if not r["done"]:
+        return "…"
+    ok = protocol_ok(r)
+    return "✓" if ok else "✓?" if ok is None else "✓¹"
 
 
 def check(verbose=True):
@@ -241,13 +285,16 @@ def check(verbose=True):
             for mode in TEST_MODES:
                 for e in EBNO:
                     r = s["res"].get((mode, e))
-                    cells += ("✓" if r and r["done"] else "…" if r else "—").rjust(7)
+                    cells += mark(r).rjust(7)
             where = (m.get("model") or m.get("resume") or m["dir"]).replace(str(ROOT) + "/", "")
             print(f"{name(c):<15}{st:<24}{cells}   {where}")
         n_tr = sum(s["model"]["state"] == "trained" for s in S.values())
-        n_te = sum(all(s["res"].get((mo, e), {}).get("done") for mo in TEST_MODES for e in EBNO) for s in S.values())
+        n_te = sum(all(is_done(s["res"].get((mo, e))) for mo in TEST_MODES for e in EBNO) for s in S.values())
         print("-" * 118)
         print(f"trained {n_tr}/{len(S)}, fully tested {n_te}/{len(S)}   (✓ finished, … unfinished, — no result)")
+        print(f"✓¹ finished with < {MIN_FER} frame errors before {MAX_FRAMES:.0e} frames (an old test that stopped at Main.py's "
+              f"100 errors): valid but less precise; STRICT_500 = True re-tests these in step 5")
+        print("✓? finished, but the old Main.py log does not record the frame count")
     return S
 
 
@@ -371,13 +418,14 @@ S = check(verbose=False)
 R = {c: s["res"] for c, s in S.items()}
 
 for mode in TEST_MODES:
-    print("\n" + "=" * 62 + f"\n−ln(BER), {MODE_NAME[mode]}   (* unfinished, — no result)")
+    print("\n" + "=" * 62 + f"\n−ln(BER), {MODE_NAME[mode]}   (* unfinished, ¹ < {MIN_FER} frame errors, ? frame count unknown, — no result)")
     print(f"{'code':<16}" + "".join(f"{e} dB".rjust(10) for e in EBNO))
     for c in CODES:
         row = ""
         for e in EBNO:
             r = R[c].get((mode, e))
-            row += "—".rjust(10) if not r else (f"{lnb(r):9.2f}" + (" " if r["done"] else "*"))
+            tail = {"—": "", "…": " *", "✓": "  ", "✓?": "? ", "✓¹": "¹ "}[mark(r)]
+            row += "—".rjust(10) if not r else f"{lnb(r):8.2f}{tail}"
         print(f"{name(c):<16}{row}")
 
 print("\nsources:")
