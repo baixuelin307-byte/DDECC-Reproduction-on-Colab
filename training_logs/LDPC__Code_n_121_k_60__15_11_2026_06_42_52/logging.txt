@@ -1,0 +1,641 @@
+Path to model/logs: DDECCT_Results/LDPC__Code_n_121_k_60__15_11_2026_06_42_52
+Namespace(epochs=2000, resume='/content/drive/MyDrive/DDECC_results/LDPC__Code_n_121_k_60__14_11_2026_12_19_58/last_model', start_epoch=1851, workers=4, lr=0.0001, gpus='0', batch_size=128, test_batch_size=2048, seed=42, code_type='LDPC', code_k=60, code_n=121, N_dec=6, d_model=128, h=8, sigma=0.01, code=<__main__.Code object at 0x7b19896fe3c0>, N_steps=71, path='DDECCT_Results/LDPC__Code_n_121_k_60__15_11_2026_06_42_52')
+DDECCT(
+  (decoder): Encoder(
+    (layers): ModuleList(
+      (0-5): 6 x EncoderLayer(
+        (self_attn): MultiHeadedAttention(
+          (linears): ModuleList(
+            (0-3): 4 x Linear(in_features=128, out_features=128, bias=True)
+          )
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (feed_forward): PositionwiseFeedForward(
+          (w_1): Linear(in_features=128, out_features=512, bias=True)
+          (w_2): Linear(in_features=512, out_features=128, bias=True)
+          (dropout): Dropout(p=0, inplace=False)
+        )
+        (sublayer): ModuleList(
+          (0-1): 2 x SublayerConnection(
+            (norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+            (dropout): Dropout(p=0, inplace=False)
+          )
+        )
+      )
+    )
+    (norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+    (norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True, bias=True)
+  )
+  (oned_final_embed): Sequential(
+    (0): Linear(in_features=128, out_features=1, bias=True)
+  )
+  (out_fc): Linear(in_features=187, out_features=121, bias=True)
+  (time_embed): Embedding(71, 128)
+)
+# of Parameters: 1246045
+Training epoch 1851, Batch 500/1000: LR=6.31e-06, Loss=5.96598e-02
+Training epoch 1851, Batch 1000/1000: LR=6.31e-06, Loss=5.97298e-02
+Epoch 1851 Train Time 28.946955680847168s
+
+Training epoch 1852, Batch 500/1000: LR=6.30e-06, Loss=6.04758e-02
+Training epoch 1852, Batch 1000/1000: LR=6.30e-06, Loss=6.06559e-02
+Epoch 1852 Train Time 28.04227304458618s
+
+Training epoch 1853, Batch 500/1000: LR=6.28e-06, Loss=6.10269e-02
+Training epoch 1853, Batch 1000/1000: LR=6.28e-06, Loss=6.05659e-02
+Epoch 1853 Train Time 28.086816787719727s
+
+Training epoch 1854, Batch 500/1000: LR=6.26e-06, Loss=5.99439e-02
+Training epoch 1854, Batch 1000/1000: LR=6.26e-06, Loss=6.03153e-02
+Epoch 1854 Train Time 28.077725172042847s
+
+Training epoch 1855, Batch 500/1000: LR=6.24e-06, Loss=5.96391e-02
+Training epoch 1855, Batch 1000/1000: LR=6.24e-06, Loss=5.99714e-02
+Epoch 1855 Train Time 28.048938512802124s
+
+Training epoch 1856, Batch 500/1000: LR=6.23e-06, Loss=5.96987e-02
+Training epoch 1856, Batch 1000/1000: LR=6.23e-06, Loss=5.99607e-02
+Epoch 1856 Train Time 28.132861852645874s
+
+Training epoch 1857, Batch 500/1000: LR=6.21e-06, Loss=5.98391e-02
+Training epoch 1857, Batch 1000/1000: LR=6.21e-06, Loss=5.97219e-02
+Epoch 1857 Train Time 28.03890585899353s
+
+Training epoch 1858, Batch 500/1000: LR=6.19e-06, Loss=6.04734e-02
+Training epoch 1858, Batch 1000/1000: LR=6.19e-06, Loss=6.02489e-02
+Epoch 1858 Train Time 28.08893871307373s
+
+Training epoch 1859, Batch 500/1000: LR=6.18e-06, Loss=5.95196e-02
+Training epoch 1859, Batch 1000/1000: LR=6.18e-06, Loss=5.96753e-02
+Epoch 1859 Train Time 28.092191219329834s
+
+Training epoch 1860, Batch 500/1000: LR=6.16e-06, Loss=6.02898e-02
+Training epoch 1860, Batch 1000/1000: LR=6.16e-06, Loss=6.01098e-02
+Epoch 1860 Train Time 28.0337016582489s
+
+Training epoch 1861, Batch 500/1000: LR=6.14e-06, Loss=6.01287e-02
+Training epoch 1861, Batch 1000/1000: LR=6.14e-06, Loss=6.00364e-02
+Epoch 1861 Train Time 28.102932929992676s
+
+Training epoch 1862, Batch 500/1000: LR=6.13e-06, Loss=6.05157e-02
+Training epoch 1862, Batch 1000/1000: LR=6.13e-06, Loss=6.01884e-02
+Epoch 1862 Train Time 28.09566593170166s
+
+Training epoch 1863, Batch 500/1000: LR=6.11e-06, Loss=5.92094e-02
+Training epoch 1863, Batch 1000/1000: LR=6.11e-06, Loss=5.96296e-02
+Epoch 1863 Train Time 28.01645040512085s
+
+Training epoch 1864, Batch 500/1000: LR=6.10e-06, Loss=5.98961e-02
+Training epoch 1864, Batch 1000/1000: LR=6.10e-06, Loss=5.98492e-02
+Epoch 1864 Train Time 28.042096376419067s
+
+Training epoch 1865, Batch 500/1000: LR=6.08e-06, Loss=6.00162e-02
+Training epoch 1865, Batch 1000/1000: LR=6.08e-06, Loss=5.97445e-02
+Epoch 1865 Train Time 28.055310249328613s
+
+Training epoch 1866, Batch 500/1000: LR=6.06e-06, Loss=5.94828e-02
+Training epoch 1866, Batch 1000/1000: LR=6.06e-06, Loss=5.95863e-02
+Epoch 1866 Train Time 28.050354957580566s
+
+Training epoch 1867, Batch 500/1000: LR=6.05e-06, Loss=5.97168e-02
+Training epoch 1867, Batch 1000/1000: LR=6.05e-06, Loss=5.95673e-02
+Epoch 1867 Train Time 28.10670304298401s
+
+Training epoch 1868, Batch 500/1000: LR=6.03e-06, Loss=5.99611e-02
+Training epoch 1868, Batch 1000/1000: LR=6.03e-06, Loss=5.97614e-02
+Epoch 1868 Train Time 28.044387578964233s
+
+Training epoch 1869, Batch 500/1000: LR=6.02e-06, Loss=6.01386e-02
+Training epoch 1869, Batch 1000/1000: LR=6.02e-06, Loss=5.99380e-02
+Epoch 1869 Train Time 28.050949096679688s
+
+Training epoch 1870, Batch 500/1000: LR=6.00e-06, Loss=5.98652e-02
+Training epoch 1870, Batch 1000/1000: LR=6.00e-06, Loss=5.98667e-02
+Epoch 1870 Train Time 28.059387922286987s
+
+Training epoch 1871, Batch 500/1000: LR=5.99e-06, Loss=6.04601e-02
+Training epoch 1871, Batch 1000/1000: LR=5.99e-06, Loss=6.00332e-02
+Epoch 1871 Train Time 28.09201979637146s
+
+Training epoch 1872, Batch 500/1000: LR=5.97e-06, Loss=5.95760e-02
+Training epoch 1872, Batch 1000/1000: LR=5.97e-06, Loss=5.98524e-02
+Epoch 1872 Train Time 28.029463529586792s
+
+Training epoch 1873, Batch 500/1000: LR=5.96e-06, Loss=6.02335e-02
+Training epoch 1873, Batch 1000/1000: LR=5.96e-06, Loss=5.99838e-02
+Epoch 1873 Train Time 28.112638473510742s
+
+Training epoch 1874, Batch 500/1000: LR=5.94e-06, Loss=6.02321e-02
+Training epoch 1874, Batch 1000/1000: LR=5.94e-06, Loss=5.98833e-02
+Epoch 1874 Train Time 28.098503589630127s
+
+Training epoch 1875, Batch 500/1000: LR=5.93e-06, Loss=5.99226e-02
+Training epoch 1875, Batch 1000/1000: LR=5.93e-06, Loss=6.00129e-02
+Epoch 1875 Train Time 28.08597493171692s
+
+Training epoch 1876, Batch 500/1000: LR=5.91e-06, Loss=6.00453e-02
+Training epoch 1876, Batch 1000/1000: LR=5.91e-06, Loss=6.01758e-02
+Epoch 1876 Train Time 28.04381275177002s
+
+Training epoch 1877, Batch 500/1000: LR=5.90e-06, Loss=6.01733e-02
+Training epoch 1877, Batch 1000/1000: LR=5.90e-06, Loss=6.00224e-02
+Epoch 1877 Train Time 28.108925819396973s
+
+Training epoch 1878, Batch 500/1000: LR=5.88e-06, Loss=5.98724e-02
+Training epoch 1878, Batch 1000/1000: LR=5.88e-06, Loss=5.98904e-02
+Epoch 1878 Train Time 28.124990701675415s
+
+Training epoch 1879, Batch 500/1000: LR=5.87e-06, Loss=6.01923e-02
+Training epoch 1879, Batch 1000/1000: LR=5.87e-06, Loss=5.99125e-02
+Epoch 1879 Train Time 28.087366819381714s
+
+Training epoch 1880, Batch 500/1000: LR=5.86e-06, Loss=6.01324e-02
+Training epoch 1880, Batch 1000/1000: LR=5.86e-06, Loss=5.99466e-02
+Epoch 1880 Train Time 28.04666829109192s
+
+Training epoch 1881, Batch 500/1000: LR=5.84e-06, Loss=6.05711e-02
+Training epoch 1881, Batch 1000/1000: LR=5.84e-06, Loss=6.01214e-02
+Epoch 1881 Train Time 28.11720108985901s
+
+Training epoch 1882, Batch 500/1000: LR=5.83e-06, Loss=5.98986e-02
+Training epoch 1882, Batch 1000/1000: LR=5.83e-06, Loss=6.02004e-02
+Epoch 1882 Train Time 28.154778718948364s
+
+Training epoch 1883, Batch 500/1000: LR=5.81e-06, Loss=5.95111e-02
+Training epoch 1883, Batch 1000/1000: LR=5.81e-06, Loss=5.94956e-02
+Epoch 1883 Train Time 28.110434532165527s
+
+Training epoch 1884, Batch 500/1000: LR=5.80e-06, Loss=5.98549e-02
+Training epoch 1884, Batch 1000/1000: LR=5.80e-06, Loss=5.99032e-02
+Epoch 1884 Train Time 28.08659553527832s
+
+Training epoch 1885, Batch 500/1000: LR=5.79e-06, Loss=6.02087e-02
+Training epoch 1885, Batch 1000/1000: LR=5.79e-06, Loss=6.02878e-02
+Epoch 1885 Train Time 28.105319023132324s
+
+Training epoch 1886, Batch 500/1000: LR=5.77e-06, Loss=6.01008e-02
+Training epoch 1886, Batch 1000/1000: LR=5.77e-06, Loss=5.99864e-02
+Epoch 1886 Train Time 28.1312198638916s
+
+Training epoch 1887, Batch 500/1000: LR=5.76e-06, Loss=5.94597e-02
+Training epoch 1887, Batch 1000/1000: LR=5.76e-06, Loss=5.95275e-02
+Epoch 1887 Train Time 28.122320890426636s
+
+Training epoch 1888, Batch 500/1000: LR=5.75e-06, Loss=5.99981e-02
+Training epoch 1888, Batch 1000/1000: LR=5.75e-06, Loss=6.01062e-02
+Epoch 1888 Train Time 28.05560803413391s
+
+Training epoch 1889, Batch 500/1000: LR=5.73e-06, Loss=6.01246e-02
+Training epoch 1889, Batch 1000/1000: LR=5.73e-06, Loss=5.99418e-02
+Epoch 1889 Train Time 28.05589509010315s
+
+Training epoch 1890, Batch 500/1000: LR=5.72e-06, Loss=5.99004e-02
+Training epoch 1890, Batch 1000/1000: LR=5.72e-06, Loss=5.97750e-02
+Epoch 1890 Train Time 28.074657201766968s
+
+Training epoch 1891, Batch 500/1000: LR=5.71e-06, Loss=5.94000e-02
+Training epoch 1891, Batch 1000/1000: LR=5.71e-06, Loss=5.95809e-02
+Epoch 1891 Train Time 28.150922298431396s
+
+Training epoch 1892, Batch 500/1000: LR=5.69e-06, Loss=6.01856e-02
+Training epoch 1892, Batch 1000/1000: LR=5.69e-06, Loss=6.01080e-02
+Epoch 1892 Train Time 28.03979802131653s
+
+Training epoch 1893, Batch 500/1000: LR=5.68e-06, Loss=5.98693e-02
+Training epoch 1893, Batch 1000/1000: LR=5.68e-06, Loss=6.00397e-02
+Epoch 1893 Train Time 28.09770679473877s
+
+Training epoch 1894, Batch 500/1000: LR=5.67e-06, Loss=6.01442e-02
+Training epoch 1894, Batch 1000/1000: LR=5.67e-06, Loss=5.99698e-02
+Epoch 1894 Train Time 28.019084453582764s
+
+Training epoch 1895, Batch 500/1000: LR=5.66e-06, Loss=5.98152e-02
+Training epoch 1895, Batch 1000/1000: LR=5.66e-06, Loss=5.98728e-02
+Epoch 1895 Train Time 28.075114965438843s
+
+Training epoch 1896, Batch 500/1000: LR=5.64e-06, Loss=5.92674e-02
+Training epoch 1896, Batch 1000/1000: LR=5.64e-06, Loss=5.99839e-02
+Epoch 1896 Train Time 28.096983194351196s
+
+Training epoch 1897, Batch 500/1000: LR=5.63e-06, Loss=6.01602e-02
+Training epoch 1897, Batch 1000/1000: LR=5.63e-06, Loss=6.00216e-02
+Epoch 1897 Train Time 28.090966939926147s
+
+Training epoch 1898, Batch 500/1000: LR=5.62e-06, Loss=6.01450e-02
+Training epoch 1898, Batch 1000/1000: LR=5.62e-06, Loss=6.02316e-02
+Epoch 1898 Train Time 28.051543474197388s
+
+Training epoch 1899, Batch 500/1000: LR=5.61e-06, Loss=6.05929e-02
+Training epoch 1899, Batch 1000/1000: LR=5.61e-06, Loss=6.02298e-02
+Epoch 1899 Train Time 28.123497247695923s
+
+Training epoch 1900, Batch 500/1000: LR=5.60e-06, Loss=5.98457e-02
+Training epoch 1900, Batch 1000/1000: LR=5.60e-06, Loss=6.00101e-02
+Epoch 1900 Train Time 28.046544551849365s
+
+Model Saved
+Training epoch 1901, Batch 500/1000: LR=5.58e-06, Loss=6.00134e-02
+Training epoch 1901, Batch 1000/1000: LR=5.58e-06, Loss=5.99198e-02
+Epoch 1901 Train Time 28.034260034561157s
+
+Training epoch 1902, Batch 500/1000: LR=5.57e-06, Loss=5.98436e-02
+Training epoch 1902, Batch 1000/1000: LR=5.57e-06, Loss=6.00351e-02
+Epoch 1902 Train Time 28.140297889709473s
+
+Training epoch 1903, Batch 500/1000: LR=5.56e-06, Loss=5.95353e-02
+Training epoch 1903, Batch 1000/1000: LR=5.56e-06, Loss=5.97498e-02
+Epoch 1903 Train Time 28.101263523101807s
+
+Training epoch 1904, Batch 500/1000: LR=5.55e-06, Loss=5.96357e-02
+Training epoch 1904, Batch 1000/1000: LR=5.55e-06, Loss=5.96884e-02
+Epoch 1904 Train Time 28.04841709136963s
+
+Training epoch 1905, Batch 500/1000: LR=5.54e-06, Loss=5.92752e-02
+Training epoch 1905, Batch 1000/1000: LR=5.54e-06, Loss=5.94473e-02
+Epoch 1905 Train Time 28.087005138397217s
+
+Training epoch 1906, Batch 500/1000: LR=5.53e-06, Loss=6.03476e-02
+Training epoch 1906, Batch 1000/1000: LR=5.53e-06, Loss=6.02951e-02
+Epoch 1906 Train Time 28.04343867301941s
+
+Training epoch 1907, Batch 500/1000: LR=5.52e-06, Loss=5.95402e-02
+Training epoch 1907, Batch 1000/1000: LR=5.52e-06, Loss=6.01592e-02
+Epoch 1907 Train Time 28.143511295318604s
+
+Training epoch 1908, Batch 500/1000: LR=5.51e-06, Loss=6.00312e-02
+Training epoch 1908, Batch 1000/1000: LR=5.51e-06, Loss=6.01272e-02
+Epoch 1908 Train Time 28.031224012374878s
+
+Training epoch 1909, Batch 500/1000: LR=5.50e-06, Loss=5.97675e-02
+Training epoch 1909, Batch 1000/1000: LR=5.50e-06, Loss=5.97320e-02
+Epoch 1909 Train Time 28.066295385360718s
+
+Training epoch 1910, Batch 500/1000: LR=5.48e-06, Loss=6.01201e-02
+Training epoch 1910, Batch 1000/1000: LR=5.48e-06, Loss=5.99978e-02
+Epoch 1910 Train Time 28.072141885757446s
+
+Training epoch 1911, Batch 500/1000: LR=5.47e-06, Loss=6.01725e-02
+Training epoch 1911, Batch 1000/1000: LR=5.47e-06, Loss=5.97603e-02
+Epoch 1911 Train Time 28.129364013671875s
+
+Training epoch 1912, Batch 500/1000: LR=5.46e-06, Loss=6.05053e-02
+Training epoch 1912, Batch 1000/1000: LR=5.46e-06, Loss=6.08745e-02
+Epoch 1912 Train Time 28.157787799835205s
+
+Training epoch 1913, Batch 500/1000: LR=5.45e-06, Loss=6.01714e-02
+Training epoch 1913, Batch 1000/1000: LR=5.45e-06, Loss=5.98175e-02
+Epoch 1913 Train Time 28.050811290740967s
+
+Training epoch 1914, Batch 500/1000: LR=5.44e-06, Loss=5.90743e-02
+Training epoch 1914, Batch 1000/1000: LR=5.44e-06, Loss=5.94472e-02
+Epoch 1914 Train Time 28.093111038208008s
+
+Training epoch 1915, Batch 500/1000: LR=5.43e-06, Loss=5.97096e-02
+Training epoch 1915, Batch 1000/1000: LR=5.43e-06, Loss=5.97519e-02
+Epoch 1915 Train Time 28.093369483947754s
+
+Training epoch 1916, Batch 500/1000: LR=5.42e-06, Loss=5.99063e-02
+Training epoch 1916, Batch 1000/1000: LR=5.42e-06, Loss=6.00115e-02
+Epoch 1916 Train Time 28.096659421920776s
+
+Training epoch 1917, Batch 500/1000: LR=5.41e-06, Loss=5.97215e-02
+Training epoch 1917, Batch 1000/1000: LR=5.41e-06, Loss=5.99515e-02
+Epoch 1917 Train Time 28.041549682617188s
+
+Training epoch 1918, Batch 500/1000: LR=5.40e-06, Loss=6.05424e-02
+Training epoch 1918, Batch 1000/1000: LR=5.40e-06, Loss=6.06812e-02
+Epoch 1918 Train Time 28.051623582839966s
+
+Training epoch 1919, Batch 500/1000: LR=5.39e-06, Loss=5.94970e-02
+Training epoch 1919, Batch 1000/1000: LR=5.39e-06, Loss=5.96694e-02
+Epoch 1919 Train Time 28.04069209098816s
+
+Training epoch 1920, Batch 500/1000: LR=5.38e-06, Loss=5.97930e-02
+Training epoch 1920, Batch 1000/1000: LR=5.38e-06, Loss=6.04072e-02
+Epoch 1920 Train Time 28.07030439376831s
+
+Training epoch 1921, Batch 500/1000: LR=5.37e-06, Loss=5.96519e-02
+Training epoch 1921, Batch 1000/1000: LR=5.37e-06, Loss=5.96472e-02
+Epoch 1921 Train Time 28.06616973876953s
+
+Training epoch 1922, Batch 500/1000: LR=5.37e-06, Loss=6.01202e-02
+Training epoch 1922, Batch 1000/1000: LR=5.37e-06, Loss=6.00199e-02
+Epoch 1922 Train Time 28.0896577835083s
+
+Training epoch 1923, Batch 500/1000: LR=5.36e-06, Loss=5.99231e-02
+Training epoch 1923, Batch 1000/1000: LR=5.36e-06, Loss=6.00481e-02
+Epoch 1923 Train Time 28.03610920906067s
+
+Training epoch 1924, Batch 500/1000: LR=5.35e-06, Loss=5.98256e-02
+Training epoch 1924, Batch 1000/1000: LR=5.35e-06, Loss=5.96878e-02
+Epoch 1924 Train Time 28.119791507720947s
+
+Training epoch 1925, Batch 500/1000: LR=5.34e-06, Loss=5.97712e-02
+Training epoch 1925, Batch 1000/1000: LR=5.34e-06, Loss=5.95802e-02
+Epoch 1925 Train Time 28.077800035476685s
+
+Training epoch 1926, Batch 500/1000: LR=5.33e-06, Loss=6.05470e-02
+Training epoch 1926, Batch 1000/1000: LR=5.33e-06, Loss=6.02103e-02
+Epoch 1926 Train Time 28.070719957351685s
+
+Training epoch 1927, Batch 500/1000: LR=5.32e-06, Loss=5.97530e-02
+Training epoch 1927, Batch 1000/1000: LR=5.32e-06, Loss=5.96243e-02
+Epoch 1927 Train Time 28.03649640083313s
+
+Training epoch 1928, Batch 500/1000: LR=5.31e-06, Loss=6.01342e-02
+Training epoch 1928, Batch 1000/1000: LR=5.31e-06, Loss=6.01227e-02
+Epoch 1928 Train Time 28.01667857170105s
+
+Training epoch 1929, Batch 500/1000: LR=5.30e-06, Loss=6.00754e-02
+Training epoch 1929, Batch 1000/1000: LR=5.30e-06, Loss=6.01420e-02
+Epoch 1929 Train Time 28.08914542198181s
+
+Training epoch 1930, Batch 500/1000: LR=5.30e-06, Loss=5.94375e-02
+Training epoch 1930, Batch 1000/1000: LR=5.30e-06, Loss=5.97170e-02
+Epoch 1930 Train Time 28.08461284637451s
+
+Training epoch 1931, Batch 500/1000: LR=5.29e-06, Loss=6.03945e-02
+Training epoch 1931, Batch 1000/1000: LR=5.29e-06, Loss=6.04088e-02
+Epoch 1931 Train Time 28.06926202774048s
+
+Training epoch 1932, Batch 500/1000: LR=5.28e-06, Loss=5.99027e-02
+Training epoch 1932, Batch 1000/1000: LR=5.28e-06, Loss=5.98855e-02
+Epoch 1932 Train Time 28.01181149482727s
+
+Training epoch 1933, Batch 500/1000: LR=5.27e-06, Loss=5.96714e-02
+Training epoch 1933, Batch 1000/1000: LR=5.27e-06, Loss=5.97302e-02
+Epoch 1933 Train Time 28.062145948410034s
+
+Training epoch 1934, Batch 500/1000: LR=5.26e-06, Loss=5.97491e-02
+Training epoch 1934, Batch 1000/1000: LR=5.26e-06, Loss=5.99024e-02
+Epoch 1934 Train Time 28.03783392906189s
+
+Training epoch 1935, Batch 500/1000: LR=5.26e-06, Loss=6.03551e-02
+Training epoch 1935, Batch 1000/1000: LR=5.26e-06, Loss=6.01304e-02
+Epoch 1935 Train Time 28.097738027572632s
+
+Training epoch 1936, Batch 500/1000: LR=5.25e-06, Loss=6.00389e-02
+Training epoch 1936, Batch 1000/1000: LR=5.25e-06, Loss=6.00118e-02
+Epoch 1936 Train Time 28.108438730239868s
+
+Training epoch 1937, Batch 500/1000: LR=5.24e-06, Loss=5.94993e-02
+Training epoch 1937, Batch 1000/1000: LR=5.24e-06, Loss=5.95488e-02
+Epoch 1937 Train Time 28.102590799331665s
+
+Training epoch 1938, Batch 500/1000: LR=5.23e-06, Loss=5.98036e-02
+Training epoch 1938, Batch 1000/1000: LR=5.23e-06, Loss=5.99209e-02
+Epoch 1938 Train Time 28.12772846221924s
+
+Training epoch 1939, Batch 500/1000: LR=5.23e-06, Loss=6.02039e-02
+Training epoch 1939, Batch 1000/1000: LR=5.23e-06, Loss=6.00832e-02
+Epoch 1939 Train Time 28.094069480895996s
+
+Training epoch 1940, Batch 500/1000: LR=5.22e-06, Loss=6.05192e-02
+Training epoch 1940, Batch 1000/1000: LR=5.22e-06, Loss=6.03494e-02
+Epoch 1940 Train Time 28.083322048187256s
+
+Training epoch 1941, Batch 500/1000: LR=5.21e-06, Loss=5.98408e-02
+Training epoch 1941, Batch 1000/1000: LR=5.21e-06, Loss=5.98549e-02
+Epoch 1941 Train Time 28.3347008228302s
+
+Training epoch 1942, Batch 500/1000: LR=5.20e-06, Loss=5.97214e-02
+Training epoch 1942, Batch 1000/1000: LR=5.20e-06, Loss=5.96926e-02
+Epoch 1942 Train Time 28.241218090057373s
+
+Training epoch 1943, Batch 500/1000: LR=5.20e-06, Loss=5.96662e-02
+Training epoch 1943, Batch 1000/1000: LR=5.20e-06, Loss=5.98257e-02
+Epoch 1943 Train Time 28.02644109725952s
+
+Training epoch 1944, Batch 500/1000: LR=5.19e-06, Loss=5.96864e-02
+Training epoch 1944, Batch 1000/1000: LR=5.19e-06, Loss=5.98425e-02
+Epoch 1944 Train Time 28.059773445129395s
+
+Training epoch 1945, Batch 500/1000: LR=5.18e-06, Loss=5.99231e-02
+Training epoch 1945, Batch 1000/1000: LR=5.18e-06, Loss=5.95970e-02
+Epoch 1945 Train Time 28.17532205581665s
+
+Training epoch 1946, Batch 500/1000: LR=5.18e-06, Loss=6.02335e-02
+Training epoch 1946, Batch 1000/1000: LR=5.18e-06, Loss=6.02372e-02
+Epoch 1946 Train Time 28.17508029937744s
+
+Training epoch 1947, Batch 500/1000: LR=5.17e-06, Loss=5.99356e-02
+Training epoch 1947, Batch 1000/1000: LR=5.17e-06, Loss=5.98306e-02
+Epoch 1947 Train Time 28.08130955696106s
+
+Training epoch 1948, Batch 500/1000: LR=5.16e-06, Loss=5.98008e-02
+Training epoch 1948, Batch 1000/1000: LR=5.16e-06, Loss=5.99880e-02
+Epoch 1948 Train Time 28.083508253097534s
+
+Training epoch 1949, Batch 500/1000: LR=5.16e-06, Loss=6.00139e-02
+Training epoch 1949, Batch 1000/1000: LR=5.16e-06, Loss=6.00806e-02
+Epoch 1949 Train Time 28.07782816886902s
+
+Training epoch 1950, Batch 500/1000: LR=5.15e-06, Loss=6.02241e-02
+Training epoch 1950, Batch 1000/1000: LR=5.15e-06, Loss=6.03017e-02
+Epoch 1950 Train Time 28.082048177719116s
+
+Model Saved
+Training epoch 1951, Batch 500/1000: LR=5.15e-06, Loss=5.94738e-02
+Training epoch 1951, Batch 1000/1000: LR=5.15e-06, Loss=5.98209e-02
+Epoch 1951 Train Time 28.038790225982666s
+
+Training epoch 1952, Batch 500/1000: LR=5.14e-06, Loss=6.02264e-02
+Training epoch 1952, Batch 1000/1000: LR=5.14e-06, Loss=6.00892e-02
+Epoch 1952 Train Time 28.085017204284668s
+
+Training epoch 1953, Batch 500/1000: LR=5.13e-06, Loss=6.01710e-02
+Training epoch 1953, Batch 1000/1000: LR=5.13e-06, Loss=6.02341e-02
+Epoch 1953 Train Time 28.113637924194336s
+
+Training epoch 1954, Batch 500/1000: LR=5.13e-06, Loss=5.94348e-02
+Training epoch 1954, Batch 1000/1000: LR=5.13e-06, Loss=5.99148e-02
+Epoch 1954 Train Time 28.092705249786377s
+
+Training epoch 1955, Batch 500/1000: LR=5.12e-06, Loss=5.99589e-02
+Training epoch 1955, Batch 1000/1000: LR=5.12e-06, Loss=6.01361e-02
+Epoch 1955 Train Time 28.024540662765503s
+
+Training epoch 1956, Batch 500/1000: LR=5.12e-06, Loss=5.99191e-02
+Training epoch 1956, Batch 1000/1000: LR=5.12e-06, Loss=5.98260e-02
+Epoch 1956 Train Time 28.037935256958008s
+
+Training epoch 1957, Batch 500/1000: LR=5.11e-06, Loss=5.98659e-02
+Training epoch 1957, Batch 1000/1000: LR=5.11e-06, Loss=5.99457e-02
+Epoch 1957 Train Time 28.07613515853882s
+
+Training epoch 1958, Batch 500/1000: LR=5.11e-06, Loss=6.02794e-02
+Training epoch 1958, Batch 1000/1000: LR=5.11e-06, Loss=6.00817e-02
+Epoch 1958 Train Time 28.06317400932312s
+
+Training epoch 1959, Batch 500/1000: LR=5.10e-06, Loss=5.94417e-02
+Training epoch 1959, Batch 1000/1000: LR=5.10e-06, Loss=5.96178e-02
+Epoch 1959 Train Time 28.084402322769165s
+
+Training epoch 1960, Batch 500/1000: LR=5.10e-06, Loss=5.93407e-02
+Training epoch 1960, Batch 1000/1000: LR=5.10e-06, Loss=5.95633e-02
+Epoch 1960 Train Time 28.063633680343628s
+
+Training epoch 1961, Batch 500/1000: LR=5.09e-06, Loss=5.93910e-02
+Training epoch 1961, Batch 1000/1000: LR=5.09e-06, Loss=6.00628e-02
+Epoch 1961 Train Time 28.05565643310547s
+
+Training epoch 1962, Batch 500/1000: LR=5.09e-06, Loss=5.99804e-02
+Training epoch 1962, Batch 1000/1000: LR=5.09e-06, Loss=5.98504e-02
+Epoch 1962 Train Time 28.043020248413086s
+
+Training epoch 1963, Batch 500/1000: LR=5.08e-06, Loss=6.01908e-02
+Training epoch 1963, Batch 1000/1000: LR=5.08e-06, Loss=6.00816e-02
+Epoch 1963 Train Time 28.09888792037964s
+
+Training epoch 1964, Batch 500/1000: LR=5.08e-06, Loss=5.94028e-02
+Training epoch 1964, Batch 1000/1000: LR=5.08e-06, Loss=5.98068e-02
+Epoch 1964 Train Time 28.077452182769775s
+
+Training epoch 1965, Batch 500/1000: LR=5.08e-06, Loss=5.95524e-02
+Training epoch 1965, Batch 1000/1000: LR=5.08e-06, Loss=5.96236e-02
+Epoch 1965 Train Time 28.06389832496643s
+
+Training epoch 1966, Batch 500/1000: LR=5.07e-06, Loss=6.01085e-02
+Training epoch 1966, Batch 1000/1000: LR=5.07e-06, Loss=6.01417e-02
+Epoch 1966 Train Time 28.08065128326416s
+
+Training epoch 1967, Batch 500/1000: LR=5.07e-06, Loss=5.97664e-02
+Training epoch 1967, Batch 1000/1000: LR=5.07e-06, Loss=5.96506e-02
+Epoch 1967 Train Time 28.059191703796387s
+
+Training epoch 1968, Batch 500/1000: LR=5.06e-06, Loss=6.00922e-02
+Training epoch 1968, Batch 1000/1000: LR=5.06e-06, Loss=6.00037e-02
+Epoch 1968 Train Time 28.060566425323486s
+
+Training epoch 1969, Batch 500/1000: LR=5.06e-06, Loss=6.02403e-02
+Training epoch 1969, Batch 1000/1000: LR=5.06e-06, Loss=6.00012e-02
+Epoch 1969 Train Time 28.087995767593384s
+
+Training epoch 1970, Batch 500/1000: LR=5.06e-06, Loss=5.96827e-02
+Training epoch 1970, Batch 1000/1000: LR=5.06e-06, Loss=5.98675e-02
+Epoch 1970 Train Time 28.085551977157593s
+
+Training epoch 1971, Batch 500/1000: LR=5.05e-06, Loss=6.00839e-02
+Training epoch 1971, Batch 1000/1000: LR=5.05e-06, Loss=5.99675e-02
+Epoch 1971 Train Time 28.09883427619934s
+
+Training epoch 1972, Batch 500/1000: LR=5.05e-06, Loss=5.98750e-02
+Training epoch 1972, Batch 1000/1000: LR=5.05e-06, Loss=5.96448e-02
+Epoch 1972 Train Time 28.079863786697388s
+
+Training epoch 1973, Batch 500/1000: LR=5.05e-06, Loss=5.97547e-02
+Training epoch 1973, Batch 1000/1000: LR=5.05e-06, Loss=5.97471e-02
+Epoch 1973 Train Time 28.10590934753418s
+
+Training epoch 1974, Batch 500/1000: LR=5.04e-06, Loss=5.94961e-02
+Training epoch 1974, Batch 1000/1000: LR=5.04e-06, Loss=5.98140e-02
+Epoch 1974 Train Time 28.094532012939453s
+
+Training epoch 1975, Batch 500/1000: LR=5.04e-06, Loss=6.02269e-02
+Training epoch 1975, Batch 1000/1000: LR=5.04e-06, Loss=6.00112e-02
+Epoch 1975 Train Time 28.142893314361572s
+
+Training epoch 1976, Batch 500/1000: LR=5.04e-06, Loss=5.95466e-02
+Training epoch 1976, Batch 1000/1000: LR=5.04e-06, Loss=5.99269e-02
+Epoch 1976 Train Time 28.048295497894287s
+
+Training epoch 1977, Batch 500/1000: LR=5.03e-06, Loss=6.04664e-02
+Training epoch 1977, Batch 1000/1000: LR=5.03e-06, Loss=6.02613e-02
+Epoch 1977 Train Time 28.13497257232666s
+
+Training epoch 1978, Batch 500/1000: LR=5.03e-06, Loss=5.97659e-02
+Training epoch 1978, Batch 1000/1000: LR=5.03e-06, Loss=5.99351e-02
+Epoch 1978 Train Time 28.08390188217163s
+
+Training epoch 1979, Batch 500/1000: LR=5.03e-06, Loss=6.01634e-02
+Training epoch 1979, Batch 1000/1000: LR=5.03e-06, Loss=5.98036e-02
+Epoch 1979 Train Time 28.07255744934082s
+
+Training epoch 1980, Batch 500/1000: LR=5.03e-06, Loss=6.01188e-02
+Training epoch 1980, Batch 1000/1000: LR=5.03e-06, Loss=6.01165e-02
+Epoch 1980 Train Time 28.085737705230713s
+
+Training epoch 1981, Batch 500/1000: LR=5.02e-06, Loss=5.93143e-02
+Training epoch 1981, Batch 1000/1000: LR=5.02e-06, Loss=5.96232e-02
+Epoch 1981 Train Time 28.038094997406006s
+
+Training epoch 1982, Batch 500/1000: LR=5.02e-06, Loss=5.96127e-02
+Training epoch 1982, Batch 1000/1000: LR=5.02e-06, Loss=5.99842e-02
+Epoch 1982 Train Time 28.062042236328125s
+
+Training epoch 1983, Batch 500/1000: LR=5.02e-06, Loss=6.06409e-02
+Training epoch 1983, Batch 1000/1000: LR=5.02e-06, Loss=6.03211e-02
+Epoch 1983 Train Time 28.051464557647705s
+
+Training epoch 1984, Batch 500/1000: LR=5.02e-06, Loss=5.97592e-02
+Training epoch 1984, Batch 1000/1000: LR=5.02e-06, Loss=5.99323e-02
+Epoch 1984 Train Time 28.118463039398193s
+
+Training epoch 1985, Batch 500/1000: LR=5.02e-06, Loss=5.97566e-02
+Training epoch 1985, Batch 1000/1000: LR=5.02e-06, Loss=5.99914e-02
+Epoch 1985 Train Time 28.02243947982788s
+
+Training epoch 1986, Batch 500/1000: LR=5.01e-06, Loss=6.01345e-02
+Training epoch 1986, Batch 1000/1000: LR=5.01e-06, Loss=6.01169e-02
+Epoch 1986 Train Time 28.03855872154236s
+
+Training epoch 1987, Batch 500/1000: LR=5.01e-06, Loss=6.02461e-02
+Training epoch 1987, Batch 1000/1000: LR=5.01e-06, Loss=6.00855e-02
+Epoch 1987 Train Time 28.024967193603516s
+
+Training epoch 1988, Batch 500/1000: LR=5.01e-06, Loss=6.04490e-02
+Training epoch 1988, Batch 1000/1000: LR=5.01e-06, Loss=5.99535e-02
+Epoch 1988 Train Time 28.045916080474854s
+
+Training epoch 1989, Batch 500/1000: LR=5.01e-06, Loss=6.00946e-02
+Training epoch 1989, Batch 1000/1000: LR=5.01e-06, Loss=6.01478e-02
+Epoch 1989 Train Time 28.080085277557373s
+
+Training epoch 1990, Batch 500/1000: LR=5.01e-06, Loss=5.99199e-02
+Training epoch 1990, Batch 1000/1000: LR=5.01e-06, Loss=5.98533e-02
+Epoch 1990 Train Time 28.001673698425293s
+
+Training epoch 1991, Batch 500/1000: LR=5.01e-06, Loss=5.94891e-02
+Training epoch 1991, Batch 1000/1000: LR=5.01e-06, Loss=5.95911e-02
+Epoch 1991 Train Time 28.110579013824463s
+
+Training epoch 1992, Batch 500/1000: LR=5.00e-06, Loss=5.93762e-02
+Training epoch 1992, Batch 1000/1000: LR=5.00e-06, Loss=5.97451e-02
+Epoch 1992 Train Time 28.12217617034912s
+
+Training epoch 1993, Batch 500/1000: LR=5.00e-06, Loss=5.97742e-02
+Training epoch 1993, Batch 1000/1000: LR=5.00e-06, Loss=5.96834e-02
+Epoch 1993 Train Time 28.008872985839844s
+
+Training epoch 1994, Batch 500/1000: LR=5.00e-06, Loss=6.00976e-02
+Training epoch 1994, Batch 1000/1000: LR=5.00e-06, Loss=6.01406e-02
+Epoch 1994 Train Time 28.07541012763977s
+
+Training epoch 1995, Batch 500/1000: LR=5.00e-06, Loss=5.95713e-02
+Training epoch 1995, Batch 1000/1000: LR=5.00e-06, Loss=5.97971e-02
+Epoch 1995 Train Time 28.07253098487854s
+
+Training epoch 1996, Batch 500/1000: LR=5.00e-06, Loss=6.01534e-02
+Training epoch 1996, Batch 1000/1000: LR=5.00e-06, Loss=6.00210e-02
+Epoch 1996 Train Time 27.990296363830566s
+
+Training epoch 1997, Batch 500/1000: LR=5.00e-06, Loss=5.96034e-02
+Training epoch 1997, Batch 1000/1000: LR=5.00e-06, Loss=6.02156e-02
+Epoch 1997 Train Time 28.11498236656189s
+
+Training epoch 1998, Batch 500/1000: LR=5.00e-06, Loss=6.02802e-02
+Training epoch 1998, Batch 1000/1000: LR=5.00e-06, Loss=5.97709e-02
+Epoch 1998 Train Time 28.085654973983765s
+
+Training epoch 1999, Batch 500/1000: LR=5.00e-06, Loss=5.99653e-02
+Training epoch 1999, Batch 1000/1000: LR=5.00e-06, Loss=6.00163e-02
+Epoch 1999 Train Time 28.02635622024536s
+
+Training epoch 2000, Batch 500/1000: LR=5.00e-06, Loss=6.02766e-02
+Training epoch 2000, Batch 1000/1000: LR=5.00e-06, Loss=6.00331e-02
+Epoch 2000 Train Time 28.179215669631958s
+
+Model Saved
+Loading Best Model
+Regular Reverse Diffusion
+Line Search Reverse Diffusion

@@ -1,0 +1,594 @@
+[11-21 12:46:47] ===== LDPC(121,80) model /content/drive/MyDrive/DDECC_results/LDPC__Code_n_121_k_80__16_11_2026_07_28_54/best_model
+[11-21 12:46:47] Regular Reverse Diffusion
+[11-21 12:46:47] EbN0=4: start
+[11-21 12:48:51]   [reg] EbN0=4: 4.915e+04 frames, 240 frame errors, 2361 bit errors, -ln(BER)=7.832, 397 frames/s, at most 7.0 h left
+[11-21 12:50:55]   [reg] EbN0=4: 9.830e+04 frames, 466 frame errors, 4544 bit errors, -ln(BER)=7.870, 397 frames/s, at most 6.9 h left
+[11-21 12:51:00]   [reg] EbN0=4: 1.004e+05 frames, 479 frame errors, 4682 bit errors, -ln(BER)=7.861, 397 frames/s, done
+[11-21 12:51:00] FER count treshold reached EbN0:4
+[11-21 12:51:00] Test EbN0=4, BER=[0.0003855848899477146]
+[11-21 12:51:00] Test EbN0=4, BER_DDPM=[0.03083896749557261, 0.027620297214960364, 0.02457103063332771, 0.02168985007484399, 0.01896135520323832, 0.016400205162126834, 0.014053753926673976, 0.011888071344240175, 0.009935934601113172, 0.008216367642098162, 0.0067021934031877214, 0.005405765095294316, 0.0042938114036937085, 0.0033683911968713106, 0.002618386585005903, 0.002020738241060887, 0.0015569163486675662, 0.0012051792566200035, 0.0009469971485495024, 0.0007567577004975544, 0.0006217782825940294, 0.0005292115554899646, 0.00046835140306122447, 0.0004285740639230899, 0.0004075736053719008, 0.0003906085290521167, 0.00038533782572946535, 0.00037858473709731825, 0.000377761189703154, 0.00037487877382357904, 0.00037586703069657614, 0.00037529054752066115, 0.00037636115913307474, 0.00037487877382357904, 0.000378337672879069, 0.00037792589918198683, 0.00038130244349806035, 0.0003793259297520661, 0.00038327895724405466, 0.0003799847676673975, 0.0003845966330747175, 0.0003839377951593861, 0.00038509076151121605, 0.0003855848899477146]
+[11-21 12:51:00] Test EbN0=4, -ln(BER)_DDPM=[3.478976210238746, 3.589204370198629, 3.7061871465104077, 3.8309108663459437, 3.9653523077455715, 4.11046143434445, 4.264865735496343, 4.432219789658643, 4.611597335826246, 4.801627060266183, 5.005320432550157, 5.220289284662739, 5.450580501381177, 5.693320038257016, 5.945196958145949, 6.204292368463682, 6.465048113541733, 6.721126962422791, 6.962214475818102, 7.186467434365881, 7.382926987623696, 7.544122290190963, 7.666291682559966, 7.75504699023437, 7.80528901491488, 7.847804703989184, 7.86139013900055, 7.879070634060538, 7.881248335269594, 7.888907854060599, 7.8862751188848, 7.8878100386028835, 7.884961345978516, 7.888907854060599, 7.879723446617723, 7.880812415471933, 7.871917682786487, 7.877114749486136, 7.866747486004529, 7.875379391133067, 7.863315479203823, 7.865030010271064, 7.862031507274807, 7.86074918181591]
+[11-21 12:51:00] Test EbN0=4, FER_DDPM=[0.9735929528061225, 0.9565728635204082, 0.9326470822704082, 0.902214205994898, 0.8628726881377551, 0.8140644929846939, 0.7578125, 0.6930504623724489, 0.6218610491071429, 0.5486786511479592, 0.4744399713010204, 0.40185546875, 0.33265904017857145, 0.2677375637755102, 0.21110690369897958, 0.16212930484693877, 0.12181122448979592, 0.08965441645408163, 0.06487165178571429, 0.04616749043367347, 0.03199736926020408, 0.02255062181122449, 0.016003667091836735, 0.011788504464285714, 0.009337133290816327, 0.007742745535714286, 0.006756218112244898, 0.006058673469387755, 0.005630181760204082, 0.005361128826530612, 0.005181760204081632, 0.005072146045918368, 0.0049824617346938774, 0.004942602040816327, 0.004892777423469388, 0.004852917729591837, 0.004852917729591837, 0.004832987882653061, 0.004813058035714286, 0.004813058035714286, 0.004803093112244898, 0.00479312818877551, 0.0047831632653061226, 0.0047731983418367345]
+[11-21 12:51:00] #It. to zero syndrome: Mean=11.402293925382653, Std=5.638085138170149, Min=0.0, Max=43.0
+[11-21 12:51:00] # of testing samples: [100352.0]  (0.07 h)
+[11-21 12:51:00] EbN0=5: start
+[11-21 12:53:04]   [reg] EbN0=5: 4.915e+04 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 7.0 h left
+[11-21 12:55:07]   [reg] EbN0=5: 9.830e+04 frames, 2 frame errors, 15 bit errors, -ln(BER)=13.584, 397 frames/s, at most 6.9 h left
+[11-21 12:57:11]   [reg] EbN0=5: 1.475e+05 frames, 3 frame errors, 24 bit errors, -ln(BER)=13.519, 397 frames/s, at most 6.9 h left
+[11-21 12:59:15]   [reg] EbN0=5: 1.966e+05 frames, 5 frame errors, 47 bit errors, -ln(BER)=13.135, 397 frames/s, at most 6.9 h left
+[11-21 13:01:19]   [reg] EbN0=5: 2.458e+05 frames, 7 frame errors, 66 bit errors, -ln(BER)=13.018, 397 frames/s, at most 6.8 h left
+[11-21 13:03:22]   [reg] EbN0=5: 2.949e+05 frames, 8 frame errors, 67 bit errors, -ln(BER)=13.186, 397 frames/s, at most 6.8 h left
+[11-21 13:05:26]   [reg] EbN0=5: 3.441e+05 frames, 11 frame errors, 94 bit errors, -ln(BER)=13.001, 397 frames/s, at most 6.8 h left
+[11-21 13:07:30]   [reg] EbN0=5: 3.932e+05 frames, 12 frame errors, 104 bit errors, -ln(BER)=13.034, 397 frames/s, at most 6.7 h left
+[11-21 13:09:34]   [reg] EbN0=5: 4.424e+05 frames, 14 frame errors, 123 bit errors, -ln(BER)=12.984, 397 frames/s, at most 6.7 h left
+[11-21 13:11:37]   [reg] EbN0=5: 4.915e+05 frames, 20 frame errors, 181 bit errors, -ln(BER)=12.703, 397 frames/s, at most 6.7 h left
+[11-21 13:13:41]   [reg] EbN0=5: 5.407e+05 frames, 23 frame errors, 204 bit errors, -ln(BER)=12.678, 397 frames/s, at most 6.6 h left
+[11-21 13:15:45]   [reg] EbN0=5: 5.898e+05 frames, 29 frame errors, 251 bit errors, -ln(BER)=12.558, 397 frames/s, at most 6.6 h left
+[11-21 13:17:49]   [reg] EbN0=5: 6.390e+05 frames, 31 frame errors, 268 bit errors, -ln(BER)=12.572, 397 frames/s, at most 6.5 h left
+[11-21 13:19:53]   [reg] EbN0=5: 6.881e+05 frames, 34 frame errors, 298 bit errors, -ln(BER)=12.540, 397 frames/s, at most 6.5 h left
+[11-21 13:21:56]   [reg] EbN0=5: 7.373e+05 frames, 39 frame errors, 344 bit errors, -ln(BER)=12.466, 397 frames/s, at most 6.5 h left
+[11-21 13:24:00]   [reg] EbN0=5: 7.864e+05 frames, 41 frame errors, 359 bit errors, -ln(BER)=12.488, 397 frames/s, at most 6.4 h left
+[11-21 13:26:04]   [reg] EbN0=5: 8.356e+05 frames, 43 frame errors, 378 bit errors, -ln(BER)=12.497, 397 frames/s, at most 6.4 h left
+[11-21 13:28:08]   [reg] EbN0=5: 8.847e+05 frames, 47 frame errors, 411 bit errors, -ln(BER)=12.470, 397 frames/s, at most 6.4 h left
+[11-21 13:30:11]   [reg] EbN0=5: 9.339e+05 frames, 47 frame errors, 411 bit errors, -ln(BER)=12.524, 397 frames/s, at most 6.3 h left
+[11-21 13:32:15]   [reg] EbN0=5: 9.830e+05 frames, 50 frame errors, 440 bit errors, -ln(BER)=12.507, 397 frames/s, at most 6.3 h left
+[11-21 13:34:19]   [reg] EbN0=5: 1.032e+06 frames, 52 frame errors, 457 bit errors, -ln(BER)=12.518, 397 frames/s, at most 6.3 h left
+[11-21 13:36:23]   [reg] EbN0=5: 1.081e+06 frames, 55 frame errors, 478 bit errors, -ln(BER)=12.520, 397 frames/s, at most 6.2 h left
+[11-21 13:38:26]   [reg] EbN0=5: 1.130e+06 frames, 56 frame errors, 487 bit errors, -ln(BER)=12.546, 397 frames/s, at most 6.2 h left
+[11-21 13:40:30]   [reg] EbN0=5: 1.180e+06 frames, 61 frame errors, 537 bit errors, -ln(BER)=12.491, 397 frames/s, at most 6.2 h left
+[11-21 13:42:34]   [reg] EbN0=5: 1.229e+06 frames, 61 frame errors, 537 bit errors, -ln(BER)=12.531, 397 frames/s, at most 6.1 h left
+[11-21 13:44:38]   [reg] EbN0=5: 1.278e+06 frames, 63 frame errors, 558 bit errors, -ln(BER)=12.532, 397 frames/s, at most 6.1 h left
+[11-21 13:46:41]   [reg] EbN0=5: 1.327e+06 frames, 66 frame errors, 580 bit errors, -ln(BER)=12.531, 397 frames/s, at most 6.1 h left
+[11-21 13:48:45]   [reg] EbN0=5: 1.376e+06 frames, 70 frame errors, 605 bit errors, -ln(BER)=12.525, 397 frames/s, at most 6.0 h left
+[11-21 13:50:49]   [reg] EbN0=5: 1.425e+06 frames, 71 frame errors, 612 bit errors, -ln(BER)=12.549, 397 frames/s, at most 6.0 h left
+[11-21 13:52:52]   [reg] EbN0=5: 1.475e+06 frames, 76 frame errors, 654 bit errors, -ln(BER)=12.517, 397 frames/s, at most 6.0 h left
+[11-21 13:54:56]   [reg] EbN0=5: 1.524e+06 frames, 79 frame errors, 685 bit errors, -ln(BER)=12.503, 397 frames/s, at most 5.9 h left
+[11-21 13:57:00]   [reg] EbN0=5: 1.573e+06 frames, 80 frame errors, 692 bit errors, -ln(BER)=12.525, 397 frames/s, at most 5.9 h left
+[11-21 13:59:04]   [reg] EbN0=5: 1.622e+06 frames, 81 frame errors, 701 bit errors, -ln(BER)=12.542, 397 frames/s, at most 5.9 h left
+[11-21 14:01:08]   [reg] EbN0=5: 1.671e+06 frames, 82 frame errors, 711 bit errors, -ln(BER)=12.558, 397 frames/s, at most 5.8 h left
+[11-21 14:03:11]   [reg] EbN0=5: 1.720e+06 frames, 83 frame errors, 719 bit errors, -ln(BER)=12.576, 397 frames/s, at most 5.8 h left
+[11-21 14:05:15]   [reg] EbN0=5: 1.769e+06 frames, 87 frame errors, 760 bit errors, -ln(BER)=12.549, 397 frames/s, at most 5.8 h left
+[11-21 14:07:19]   [reg] EbN0=5: 1.819e+06 frames, 89 frame errors, 776 bit errors, -ln(BER)=12.555, 397 frames/s, at most 5.7 h left
+[11-21 14:09:23]   [reg] EbN0=5: 1.868e+06 frames, 91 frame errors, 791 bit errors, -ln(BER)=12.563, 397 frames/s, at most 5.7 h left
+[11-21 14:11:26]   [reg] EbN0=5: 1.917e+06 frames, 92 frame errors, 801 bit errors, -ln(BER)=12.576, 397 frames/s, at most 5.7 h left
+[11-21 14:13:30]   [reg] EbN0=5: 1.966e+06 frames, 95 frame errors, 833 bit errors, -ln(BER)=12.562, 397 frames/s, at most 5.6 h left
+[11-21 14:15:34]   [reg] EbN0=5: 2.015e+06 frames, 97 frame errors, 857 bit errors, -ln(BER)=12.559, 397 frames/s, at most 5.6 h left
+[11-21 14:16:36]   [reg] EbN0=5: 2.040e+06 frames, 101 frame errors, 903 bit errors, -ln(BER)=12.518, 397 frames/s, done
+[11-21 14:16:36] FER count treshold reached EbN0:5
+[11-21 14:16:36] Test EbN0=5, BER=[3.6585844929303993e-06]
+[11-21 14:16:36] Test EbN0=5, BER_DDPM=[0.01772841057541115, 0.015205125771681769, 0.012884469016302814, 0.010778218277293056, 0.008882856775760065, 0.0072124678336279, 0.005754803498601846, 0.004509628778543928, 0.0034677060514786417, 0.0026114352165894986, 0.0019241561416119021, 0.0013884875115129942, 0.0009768825754982741, 0.0006689172755069866, 0.00044613257394246405, 0.0002900532268536958, 0.00018319662949317932, 0.0001127921746386372, 6.773445797653423e-05, 4.034977072546384e-05, 2.4066436199342827e-05, 1.4346675182133493e-05, 9.11202272934714e-06, 6.26780754215208e-06, 4.829493594211557e-06, 4.165033066148893e-06, 3.897628219489528e-06, 3.699100378787879e-06, 3.6504813157589035e-06, 3.5897074869726843e-06, 3.5451400125294566e-06, 3.5775527212154405e-06, 3.5694495440439443e-06, 3.59781066414418e-06, 3.6221201956586678e-06, 3.6302233728301635e-06, 3.6383265500016597e-06, 3.6180686070729197e-06, 3.666687670101895e-06, 3.609965429901424e-06, 3.7031519673736266e-06, 3.6383265500016597e-06, 3.7274614988881142e-06, 3.6585844929303993e-06]
+[11-21 14:16:36] Test EbN0=5, -ln(BER)_DDPM=[4.032586808971369, 4.186122686155236, 4.351732645171814, 4.530228007561127, 4.723632064733308, 4.931944106966821, 5.1577203818565875, 5.4015404395994056, 5.6642619838988, 5.9478553173688145, 6.2532677753475445, 6.579540245486896, 6.931144101989914, 7.309850159432519, 7.714894399122461, 8.145446110950507, 8.604950503856484, 9.089963595077734, 9.599915527081636, 10.117924845409098, 10.634692376984047, 11.151992337228833, 11.605915837381422, 11.980083938767672, 12.240768941715443, 12.388786343325627, 12.455142338675032, 12.50742090874577, 12.5206515317324, 12.537439838735656, 12.549932902983123, 12.540831588736777, 12.543099163404559, 12.535185046348568, 12.528451014167224, 12.526216376365808, 12.523986721038538, 12.52957020846424, 12.516221845640812, 12.531812361869928, 12.506326217886588, 12.523986721038538, 12.499783119297652, 12.518434235923753]
+[11-21 14:16:36] Test EbN0=5, FER_DDPM=[0.8752789478225401, 0.8221577717118473, 0.7598455344816767, 0.6894501835466867, 0.6129125878514057, 0.5333732390499498, 0.4537216247803715, 0.3766109359312249, 0.3049929209023594, 0.24048979119603414, 0.18445755678965864, 0.13781836329693775, 0.09990695202685743, 0.07014581764558232, 0.047761848173945784, 0.031524045400351405, 0.020074928620732933, 0.012384989175451807, 0.007385989269578314, 0.0043018754706325305, 0.002438464796686747, 0.0013177710843373493, 0.0007010463729919679, 0.0003706231174698795, 0.00019707737198795182, 0.000124031281375502, 8.922408383534136e-05, 7.059487951807229e-05, 6.373148845381527e-05, 5.833882404618474e-05, 5.343640185742972e-05, 5.294615963855422e-05, 5.2455917419678717e-05, 5.1475432981927714e-05, 5.1475432981927714e-05, 5.0985190763052206e-05, 5.0985190763052206e-05, 5.0494948544176705e-05, 5.0494948544176705e-05, 5.00047063253012e-05, 5.00047063253012e-05, 4.95144641064257e-05, 4.95144641064257e-05, 4.95144641064257e-05]
+[11-21 14:16:36] #It. to zero syndrome: Mean=7.2086799345820785, Std=4.6692184837175725, Min=0.0, Max=43.0
+[11-21 14:16:36] # of testing samples: [2039808.0]  (1.43 h)
+[11-21 14:16:36] EbN0=6: start
+[11-21 14:18:39]   [reg] EbN0=6: 4.915e+04 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 7.0 h left
+[11-21 14:20:43]   [reg] EbN0=6: 9.830e+04 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.9 h left
+[11-21 14:22:47]   [reg] EbN0=6: 1.475e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.9 h left
+[11-21 14:24:51]   [reg] EbN0=6: 1.966e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.9 h left
+[11-21 14:26:54]   [reg] EbN0=6: 2.458e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.8 h left
+[11-21 14:28:58]   [reg] EbN0=6: 2.949e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.8 h left
+[11-21 14:31:02]   [reg] EbN0=6: 3.441e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.8 h left
+[11-21 14:33:06]   [reg] EbN0=6: 3.932e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.7 h left
+[11-21 14:35:09]   [reg] EbN0=6: 4.424e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.7 h left
+[11-21 14:37:13]   [reg] EbN0=6: 4.915e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.6 h left
+[11-21 14:39:17]   [reg] EbN0=6: 5.407e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.6 h left
+[11-21 14:41:21]   [reg] EbN0=6: 5.898e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.6 h left
+[11-21 14:43:24]   [reg] EbN0=6: 6.390e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 397 frames/s, at most 6.5 h left
+[11-21 14:45:28]   [reg] EbN0=6: 6.881e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.238, 397 frames/s, at most 6.5 h left
+[11-21 14:47:32]   [reg] EbN0=6: 7.373e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.307, 397 frames/s, at most 6.5 h left
+[11-21 14:49:36]   [reg] EbN0=6: 7.864e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.371, 397 frames/s, at most 6.4 h left
+[11-21 14:51:39]   [reg] EbN0=6: 8.356e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.432, 397 frames/s, at most 6.4 h left
+[11-21 14:53:43]   [reg] EbN0=6: 8.847e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.489, 397 frames/s, at most 6.4 h left
+[11-21 14:55:47]   [reg] EbN0=6: 9.339e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.543, 397 frames/s, at most 6.3 h left
+[11-21 14:57:51]   [reg] EbN0=6: 9.830e+05 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.594, 397 frames/s, at most 6.3 h left
+[11-21 14:59:54]   [reg] EbN0=6: 1.032e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.643, 397 frames/s, at most 6.3 h left
+[11-21 15:01:58]   [reg] EbN0=6: 1.081e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.690, 397 frames/s, at most 6.2 h left
+[11-21 15:04:02]   [reg] EbN0=6: 1.130e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.734, 397 frames/s, at most 6.2 h left
+[11-21 15:06:06]   [reg] EbN0=6: 1.180e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.777, 397 frames/s, at most 6.2 h left
+[11-21 15:08:09]   [reg] EbN0=6: 1.229e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.817, 397 frames/s, at most 6.1 h left
+[11-21 15:10:13]   [reg] EbN0=6: 1.278e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.857, 397 frames/s, at most 6.1 h left
+[11-21 15:12:17]   [reg] EbN0=6: 1.327e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.894, 397 frames/s, at most 6.1 h left
+[11-21 15:14:21]   [reg] EbN0=6: 1.376e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.931, 397 frames/s, at most 6.0 h left
+[11-21 15:16:24]   [reg] EbN0=6: 1.425e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=18.966, 397 frames/s, at most 6.0 h left
+[11-21 15:18:28]   [reg] EbN0=6: 1.475e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.000, 397 frames/s, at most 6.0 h left
+[11-21 15:20:32]   [reg] EbN0=6: 1.524e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.032, 397 frames/s, at most 5.9 h left
+[11-21 15:22:36]   [reg] EbN0=6: 1.573e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.064, 397 frames/s, at most 5.9 h left
+[11-21 15:24:39]   [reg] EbN0=6: 1.622e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.095, 397 frames/s, at most 5.9 h left
+[11-21 15:26:43]   [reg] EbN0=6: 1.671e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.125, 397 frames/s, at most 5.8 h left
+[11-21 15:28:47]   [reg] EbN0=6: 1.720e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.461, 397 frames/s, at most 5.8 h left
+[11-21 15:30:51]   [reg] EbN0=6: 1.769e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.489, 397 frames/s, at most 5.8 h left
+[11-21 15:32:54]   [reg] EbN0=6: 1.819e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.516, 397 frames/s, at most 5.7 h left
+[11-21 15:34:58]   [reg] EbN0=6: 1.868e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.543, 397 frames/s, at most 5.7 h left
+[11-21 15:37:02]   [reg] EbN0=6: 1.917e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.569, 397 frames/s, at most 5.7 h left
+[11-21 15:39:06]   [reg] EbN0=6: 1.966e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.594, 397 frames/s, at most 5.6 h left
+[11-21 15:41:09]   [reg] EbN0=6: 2.015e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.619, 397 frames/s, at most 5.6 h left
+[11-21 15:43:13]   [reg] EbN0=6: 2.064e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.643, 397 frames/s, at most 5.5 h left
+[11-21 15:45:17]   [reg] EbN0=6: 2.114e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.667, 397 frames/s, at most 5.5 h left
+[11-21 15:47:21]   [reg] EbN0=6: 2.163e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.690, 397 frames/s, at most 5.5 h left
+[11-21 15:49:24]   [reg] EbN0=6: 2.212e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.712, 397 frames/s, at most 5.4 h left
+[11-21 15:51:28]   [reg] EbN0=6: 2.261e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.734, 397 frames/s, at most 5.4 h left
+[11-21 15:53:32]   [reg] EbN0=6: 2.310e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.755, 397 frames/s, at most 5.4 h left
+[11-21 15:55:36]   [reg] EbN0=6: 2.359e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.777, 397 frames/s, at most 5.3 h left
+[11-21 15:57:39]   [reg] EbN0=6: 2.408e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.797, 397 frames/s, at most 5.3 h left
+[11-21 15:59:43]   [reg] EbN0=6: 2.458e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.817, 397 frames/s, at most 5.3 h left
+[11-21 16:01:47]   [reg] EbN0=6: 2.507e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.837, 397 frames/s, at most 5.2 h left
+[11-21 16:03:51]   [reg] EbN0=6: 2.556e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.857, 397 frames/s, at most 5.2 h left
+[11-21 16:05:55]   [reg] EbN0=6: 2.605e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.876, 397 frames/s, at most 5.2 h left
+[11-21 16:07:58]   [reg] EbN0=6: 2.654e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.894, 397 frames/s, at most 5.1 h left
+[11-21 16:10:02]   [reg] EbN0=6: 2.703e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.913, 397 frames/s, at most 5.1 h left
+[11-21 16:12:06]   [reg] EbN0=6: 2.753e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.931, 397 frames/s, at most 5.1 h left
+[11-21 16:14:10]   [reg] EbN0=6: 2.802e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.948, 397 frames/s, at most 5.0 h left
+[11-21 16:16:13]   [reg] EbN0=6: 2.851e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.966, 397 frames/s, at most 5.0 h left
+[11-21 16:18:17]   [reg] EbN0=6: 2.900e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=18.983, 397 frames/s, at most 5.0 h left
+[11-21 16:20:21]   [reg] EbN0=6: 2.949e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.000, 397 frames/s, at most 4.9 h left
+[11-21 16:22:25]   [reg] EbN0=6: 2.998e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.016, 397 frames/s, at most 4.9 h left
+[11-21 16:24:28]   [reg] EbN0=6: 3.047e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.032, 397 frames/s, at most 4.9 h left
+[11-21 16:26:32]   [reg] EbN0=6: 3.097e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.048, 397 frames/s, at most 4.8 h left
+[11-21 16:28:36]   [reg] EbN0=6: 3.146e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.064, 397 frames/s, at most 4.8 h left
+[11-21 16:30:40]   [reg] EbN0=6: 3.195e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.134, 397 frames/s, at most 4.8 h left
+[11-21 16:32:43]   [reg] EbN0=6: 3.244e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.149, 397 frames/s, at most 4.7 h left
+[11-21 16:34:47]   [reg] EbN0=6: 3.293e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.164, 397 frames/s, at most 4.7 h left
+[11-21 16:36:51]   [reg] EbN0=6: 3.342e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.179, 397 frames/s, at most 4.7 h left
+[11-21 16:38:55]   [reg] EbN0=6: 3.391e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.194, 397 frames/s, at most 4.6 h left
+[11-21 16:40:58]   [reg] EbN0=6: 3.441e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.208, 397 frames/s, at most 4.6 h left
+[11-21 16:43:02]   [reg] EbN0=6: 3.490e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.222, 397 frames/s, at most 4.6 h left
+[11-21 16:45:06]   [reg] EbN0=6: 3.539e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.236, 397 frames/s, at most 4.5 h left
+[11-21 16:47:10]   [reg] EbN0=6: 3.588e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.250, 397 frames/s, at most 4.5 h left
+[11-21 16:49:14]   [reg] EbN0=6: 3.637e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.263, 397 frames/s, at most 4.5 h left
+[11-21 16:51:17]   [reg] EbN0=6: 3.686e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.277, 397 frames/s, at most 4.4 h left
+[11-21 16:53:21]   [reg] EbN0=6: 3.736e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.290, 397 frames/s, at most 4.4 h left
+[11-21 16:55:25]   [reg] EbN0=6: 3.785e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.303, 397 frames/s, at most 4.3 h left
+[11-21 16:57:29]   [reg] EbN0=6: 3.834e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.316, 397 frames/s, at most 4.3 h left
+[11-21 16:59:32]   [reg] EbN0=6: 3.883e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.329, 397 frames/s, at most 4.3 h left
+[11-21 17:01:36]   [reg] EbN0=6: 3.932e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.341, 397 frames/s, at most 4.2 h left
+[11-21 17:03:40]   [reg] EbN0=6: 3.981e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.354, 397 frames/s, at most 4.2 h left
+[11-21 17:05:44]   [reg] EbN0=6: 4.030e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.366, 397 frames/s, at most 4.2 h left
+[11-21 17:07:47]   [reg] EbN0=6: 4.080e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.378, 397 frames/s, at most 4.1 h left
+[11-21 17:09:51]   [reg] EbN0=6: 4.129e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.390, 397 frames/s, at most 4.1 h left
+[11-21 17:11:55]   [reg] EbN0=6: 4.178e+06 frames, 3 frame errors, 14 bit errors, -ln(BER)=17.402, 397 frames/s, at most 4.1 h left
+[11-21 17:13:59]   [reg] EbN0=6: 4.227e+06 frames, 4 frame errors, 15 bit errors, -ln(BER)=17.345, 397 frames/s, at most 4.0 h left
+[11-21 17:16:02]   [reg] EbN0=6: 4.276e+06 frames, 4 frame errors, 15 bit errors, -ln(BER)=17.356, 397 frames/s, at most 4.0 h left
+[11-21 17:18:06]   [reg] EbN0=6: 4.325e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.303, 397 frames/s, at most 4.0 h left
+[11-21 17:20:10]   [reg] EbN0=6: 4.375e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.315, 397 frames/s, at most 3.9 h left
+[11-21 17:22:14]   [reg] EbN0=6: 4.424e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.326, 397 frames/s, at most 3.9 h left
+[11-21 17:24:17]   [reg] EbN0=6: 4.473e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.337, 397 frames/s, at most 3.9 h left
+[11-21 17:26:21]   [reg] EbN0=6: 4.522e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.348, 397 frames/s, at most 3.8 h left
+[11-21 17:28:25]   [reg] EbN0=6: 4.571e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.358, 397 frames/s, at most 3.8 h left
+[11-21 17:30:29]   [reg] EbN0=6: 4.620e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.369, 397 frames/s, at most 3.8 h left
+[11-21 17:32:32]   [reg] EbN0=6: 4.669e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.380, 397 frames/s, at most 3.7 h left
+[11-21 17:34:36]   [reg] EbN0=6: 4.719e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.390, 397 frames/s, at most 3.7 h left
+[11-21 17:36:40]   [reg] EbN0=6: 4.768e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.401, 397 frames/s, at most 3.7 h left
+[11-21 17:38:44]   [reg] EbN0=6: 4.817e+06 frames, 5 frame errors, 16 bit errors, -ln(BER)=17.411, 397 frames/s, at most 3.6 h left
+[11-21 17:40:47]   [reg] EbN0=6: 4.866e+06 frames, 6 frame errors, 17 bit errors, -ln(BER)=17.360, 397 frames/s, at most 3.6 h left
+[11-21 17:42:51]   [reg] EbN0=6: 4.915e+06 frames, 6 frame errors, 17 bit errors, -ln(BER)=17.370, 397 frames/s, at most 3.6 h left
+[11-21 17:44:55]   [reg] EbN0=6: 4.964e+06 frames, 7 frame errors, 21 bit errors, -ln(BER)=17.169, 397 frames/s, at most 3.5 h left
+[11-21 17:46:59]   [reg] EbN0=6: 5.014e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.132, 397 frames/s, at most 3.5 h left
+[11-21 17:49:02]   [reg] EbN0=6: 5.063e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.142, 397 frames/s, at most 3.5 h left
+[11-21 17:51:06]   [reg] EbN0=6: 5.112e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.152, 397 frames/s, at most 3.4 h left
+[11-21 17:53:10]   [reg] EbN0=6: 5.161e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.161, 397 frames/s, at most 3.4 h left
+[11-21 17:55:14]   [reg] EbN0=6: 5.210e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.171, 397 frames/s, at most 3.3 h left
+[11-21 17:57:17]   [reg] EbN0=6: 5.259e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.180, 397 frames/s, at most 3.3 h left
+[11-21 17:59:21]   [reg] EbN0=6: 5.308e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.190, 397 frames/s, at most 3.3 h left
+[11-21 18:01:25]   [reg] EbN0=6: 5.358e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.199, 397 frames/s, at most 3.2 h left
+[11-21 18:03:29]   [reg] EbN0=6: 5.407e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.208, 397 frames/s, at most 3.2 h left
+[11-21 18:05:32]   [reg] EbN0=6: 5.456e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.217, 397 frames/s, at most 3.2 h left
+[11-21 18:07:36]   [reg] EbN0=6: 5.505e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.226, 397 frames/s, at most 3.1 h left
+[11-21 18:09:40]   [reg] EbN0=6: 5.554e+06 frames, 8 frame errors, 22 bit errors, -ln(BER)=17.235, 397 frames/s, at most 3.1 h left
+[11-21 18:11:44]   [reg] EbN0=6: 5.603e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.869, 397 frames/s, at most 3.1 h left
+[11-21 18:13:47]   [reg] EbN0=6: 5.652e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.878, 397 frames/s, at most 3.0 h left
+[11-21 18:15:51]   [reg] EbN0=6: 5.702e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.886, 397 frames/s, at most 3.0 h left
+[11-21 18:17:55]   [reg] EbN0=6: 5.751e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.895, 397 frames/s, at most 3.0 h left
+[11-21 18:19:59]   [reg] EbN0=6: 5.800e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.903, 397 frames/s, at most 2.9 h left
+[11-21 18:22:02]   [reg] EbN0=6: 5.849e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.912, 397 frames/s, at most 2.9 h left
+[11-21 18:24:06]   [reg] EbN0=6: 5.898e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.920, 397 frames/s, at most 2.9 h left
+[11-21 18:26:10]   [reg] EbN0=6: 5.947e+06 frames, 9 frame errors, 32 bit errors, -ln(BER)=16.929, 397 frames/s, at most 2.8 h left
+[11-21 18:28:14]   [reg] EbN0=6: 5.997e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.739, 397 frames/s, at most 2.8 h left
+[11-21 18:30:17]   [reg] EbN0=6: 6.046e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.747, 397 frames/s, at most 2.8 h left
+[11-21 18:32:21]   [reg] EbN0=6: 6.095e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.755, 397 frames/s, at most 2.7 h left
+[11-21 18:34:25]   [reg] EbN0=6: 6.144e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.763, 397 frames/s, at most 2.7 h left
+[11-21 18:36:29]   [reg] EbN0=6: 6.193e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.771, 397 frames/s, at most 2.7 h left
+[11-21 18:38:32]   [reg] EbN0=6: 6.242e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.779, 397 frames/s, at most 2.6 h left
+[11-21 18:40:36]   [reg] EbN0=6: 6.291e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.787, 397 frames/s, at most 2.6 h left
+[11-21 18:42:40]   [reg] EbN0=6: 6.341e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.795, 397 frames/s, at most 2.6 h left
+[11-21 18:44:44]   [reg] EbN0=6: 6.390e+06 frames, 10 frame errors, 39 bit errors, -ln(BER)=16.802, 397 frames/s, at most 2.5 h left
+[11-21 18:46:47]   [reg] EbN0=6: 6.439e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.562, 397 frames/s, at most 2.5 h left
+[11-21 18:48:51]   [reg] EbN0=6: 6.488e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.569, 397 frames/s, at most 2.5 h left
+[11-21 18:50:55]   [reg] EbN0=6: 6.537e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.577, 397 frames/s, at most 2.4 h left
+[11-21 18:52:59]   [reg] EbN0=6: 6.586e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.584, 397 frames/s, at most 2.4 h left
+[11-21 18:55:02]   [reg] EbN0=6: 6.636e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.592, 397 frames/s, at most 2.4 h left
+[11-21 18:57:06]   [reg] EbN0=6: 6.685e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.599, 397 frames/s, at most 2.3 h left
+[11-21 18:59:10]   [reg] EbN0=6: 6.734e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.606, 397 frames/s, at most 2.3 h left
+[11-21 19:01:14]   [reg] EbN0=6: 6.783e+06 frames, 11 frame errors, 50 bit errors, -ln(BER)=16.614, 397 frames/s, at most 2.2 h left
+[11-21 19:03:17]   [reg] EbN0=6: 6.832e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.601, 397 frames/s, at most 2.2 h left
+[11-21 19:05:21]   [reg] EbN0=6: 6.881e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.608, 397 frames/s, at most 2.2 h left
+[11-21 19:07:25]   [reg] EbN0=6: 6.930e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.615, 397 frames/s, at most 2.1 h left
+[11-21 19:09:29]   [reg] EbN0=6: 6.980e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.622, 397 frames/s, at most 2.1 h left
+[11-21 19:11:32]   [reg] EbN0=6: 7.029e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.629, 397 frames/s, at most 2.1 h left
+[11-21 19:13:36]   [reg] EbN0=6: 7.078e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.636, 397 frames/s, at most 2.0 h left
+[11-21 19:15:40]   [reg] EbN0=6: 7.127e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.643, 397 frames/s, at most 2.0 h left
+[11-21 19:17:44]   [reg] EbN0=6: 7.176e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.650, 397 frames/s, at most 2.0 h left
+[11-21 19:19:47]   [reg] EbN0=6: 7.225e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.657, 397 frames/s, at most 1.9 h left
+[11-21 19:21:51]   [reg] EbN0=6: 7.274e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.664, 397 frames/s, at most 1.9 h left
+[11-21 19:23:55]   [reg] EbN0=6: 7.324e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.671, 397 frames/s, at most 1.9 h left
+[11-21 19:25:59]   [reg] EbN0=6: 7.373e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.677, 397 frames/s, at most 1.8 h left
+[11-21 19:28:02]   [reg] EbN0=6: 7.422e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.684, 397 frames/s, at most 1.8 h left
+[11-21 19:30:06]   [reg] EbN0=6: 7.471e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.691, 397 frames/s, at most 1.8 h left
+[11-21 19:32:10]   [reg] EbN0=6: 7.520e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.697, 397 frames/s, at most 1.7 h left
+[11-21 19:34:14]   [reg] EbN0=6: 7.569e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.704, 397 frames/s, at most 1.7 h left
+[11-21 19:36:17]   [reg] EbN0=6: 7.619e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.710, 397 frames/s, at most 1.7 h left
+[11-21 19:38:21]   [reg] EbN0=6: 7.668e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.716, 397 frames/s, at most 1.6 h left
+[11-21 19:40:25]   [reg] EbN0=6: 7.717e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.723, 397 frames/s, at most 1.6 h left
+[11-21 19:42:29]   [reg] EbN0=6: 7.766e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.729, 397 frames/s, at most 1.6 h left
+[11-21 19:44:32]   [reg] EbN0=6: 7.815e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.736, 397 frames/s, at most 1.5 h left
+[11-21 19:46:36]   [reg] EbN0=6: 7.864e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.742, 397 frames/s, at most 1.5 h left
+[11-21 19:48:40]   [reg] EbN0=6: 7.913e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.748, 397 frames/s, at most 1.5 h left
+[11-21 19:50:44]   [reg] EbN0=6: 7.963e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.754, 397 frames/s, at most 1.4 h left
+[11-21 19:52:47]   [reg] EbN0=6: 8.012e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.760, 397 frames/s, at most 1.4 h left
+[11-21 19:54:51]   [reg] EbN0=6: 8.061e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.767, 397 frames/s, at most 1.4 h left
+[11-21 19:56:55]   [reg] EbN0=6: 8.110e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.773, 397 frames/s, at most 1.3 h left
+[11-21 19:58:59]   [reg] EbN0=6: 8.159e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.779, 397 frames/s, at most 1.3 h left
+[11-21 20:01:02]   [reg] EbN0=6: 8.208e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.785, 397 frames/s, at most 1.3 h left
+[11-21 20:03:06]   [reg] EbN0=6: 8.258e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.791, 397 frames/s, at most 1.2 h left
+[11-21 20:05:10]   [reg] EbN0=6: 8.307e+06 frames, 12 frame errors, 51 bit errors, -ln(BER)=16.797, 397 frames/s, at most 1.2 h left
+[11-21 20:07:14]   [reg] EbN0=6: 8.356e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.783, 397 frames/s, at most 1.1 h left
+[11-21 20:09:17]   [reg] EbN0=6: 8.405e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.789, 397 frames/s, at most 1.1 h left
+[11-21 20:11:21]   [reg] EbN0=6: 8.454e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.795, 397 frames/s, at most 1.1 h left
+[11-21 20:13:25]   [reg] EbN0=6: 8.503e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.801, 397 frames/s, at most 1.0 h left
+[11-21 20:15:29]   [reg] EbN0=6: 8.552e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.806, 397 frames/s, at most 1.0 h left
+[11-21 20:17:32]   [reg] EbN0=6: 8.602e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.812, 397 frames/s, at most 1.0 h left
+[11-21 20:19:36]   [reg] EbN0=6: 8.651e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.818, 397 frames/s, at most 0.9 h left
+[11-21 20:21:40]   [reg] EbN0=6: 8.700e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.823, 397 frames/s, at most 0.9 h left
+[11-21 20:23:44]   [reg] EbN0=6: 8.749e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.829, 397 frames/s, at most 0.9 h left
+[11-21 20:25:47]   [reg] EbN0=6: 8.798e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.835, 397 frames/s, at most 0.8 h left
+[11-21 20:27:51]   [reg] EbN0=6: 8.847e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.840, 397 frames/s, at most 0.8 h left
+[11-21 20:29:55]   [reg] EbN0=6: 8.897e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.846, 397 frames/s, at most 0.8 h left
+[11-21 20:31:59]   [reg] EbN0=6: 8.946e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.851, 397 frames/s, at most 0.7 h left
+[11-21 20:34:02]   [reg] EbN0=6: 8.995e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.857, 397 frames/s, at most 0.7 h left
+[11-21 20:36:06]   [reg] EbN0=6: 9.044e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.862, 397 frames/s, at most 0.7 h left
+[11-21 20:38:10]   [reg] EbN0=6: 9.093e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.868, 397 frames/s, at most 0.6 h left
+[11-21 20:40:14]   [reg] EbN0=6: 9.142e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.873, 397 frames/s, at most 0.6 h left
+[11-21 20:42:17]   [reg] EbN0=6: 9.191e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.878, 397 frames/s, at most 0.6 h left
+[11-21 20:44:21]   [reg] EbN0=6: 9.241e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.884, 397 frames/s, at most 0.5 h left
+[11-21 20:46:25]   [reg] EbN0=6: 9.290e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.889, 397 frames/s, at most 0.5 h left
+[11-21 20:48:29]   [reg] EbN0=6: 9.339e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.894, 397 frames/s, at most 0.5 h left
+[11-21 20:50:32]   [reg] EbN0=6: 9.388e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.899, 397 frames/s, at most 0.4 h left
+[11-21 20:52:36]   [reg] EbN0=6: 9.437e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.905, 397 frames/s, at most 0.4 h left
+[11-21 20:54:40]   [reg] EbN0=6: 9.486e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.910, 397 frames/s, at most 0.4 h left
+[11-21 20:56:44]   [reg] EbN0=6: 9.535e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.915, 397 frames/s, at most 0.3 h left
+[11-21 20:58:48]   [reg] EbN0=6: 9.585e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.920, 397 frames/s, at most 0.3 h left
+[11-21 21:00:51]   [reg] EbN0=6: 9.634e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.925, 397 frames/s, at most 0.3 h left
+[11-21 21:02:55]   [reg] EbN0=6: 9.683e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.930, 397 frames/s, at most 0.2 h left
+[11-21 21:04:59]   [reg] EbN0=6: 9.732e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.935, 397 frames/s, at most 0.2 h left
+[11-21 21:07:02]   [reg] EbN0=6: 9.781e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.941, 397 frames/s, at most 0.2 h left
+[11-21 21:09:06]   [reg] EbN0=6: 9.830e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.946, 397 frames/s, at most 0.1 h left
+[11-21 21:11:10]   [reg] EbN0=6: 9.880e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.951, 397 frames/s, at most 0.1 h left
+[11-21 21:13:14]   [reg] EbN0=6: 9.929e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.955, 397 frames/s, at most 0.0 h left
+[11-21 21:15:18]   [reg] EbN0=6: 9.978e+06 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.960, 397 frames/s, at most 0.0 h left
+[11-21 21:16:14]   [reg] EbN0=6: 1.000e+07 frames, 13 frame errors, 52 bit errors, -ln(BER)=16.963, 397 frames/s, done
+[11-21 21:16:14] Cum count reached EbN0:6
+[11-21 21:16:14] Test EbN0=6, BER=[4.297355642700345e-08]
+[11-21 21:16:14] Test EbN0=6, BER_DDPM=[0.008942729326466592, 0.0072322272411516255, 0.005746742961433918, 0.004482280772980301, 0.0034272163287772726, 0.0025621098794434394, 0.0018722512460480195, 0.0013352512056925444, 0.0009281527886849806, 0.0006272139315139554, 0.000411896579865548, 0.0002619023396443725, 0.0001614376024489585, 9.610540046171318e-05, 5.521440869232605e-05, 3.0473209994025486e-05, 1.6020872401805557e-05, 7.997213568156007e-06, 3.832910667470039e-06, 1.7850554208139895e-06, 7.875730629795055e-07, 3.487469386960665e-07, 1.5701876386789722e-07, 8.677352740068004e-08, 5.2064116440408024e-08, 3.884148369363774e-08, 3.718865460029145e-08, 3.884148369363774e-08, 3.801506914696459e-08, 4.214714188033031e-08, 3.966789824031088e-08, 3.6362240053618306e-08, 3.966789824031088e-08, 3.6362240053618306e-08, 4.132072733365716e-08, 3.6362240053618306e-08, 4.132072733365716e-08, 3.5535825506945164e-08, 4.297355642700345e-08, 3.884148369363774e-08, 3.966789824031088e-08, 3.966789824031088e-08, 4.049431278698402e-08, 4.297355642700345e-08]
+[11-21 21:16:14] Test EbN0=6, -ln(BER)_DDPM=[4.716914442601171, 4.929208234766493, 5.15912202615122, 5.407623260991573, 5.67600691325637, 5.96692418827604, 6.280613697299957, 6.618635835773415, 6.982314195750736, 7.374222876939504, 7.794738259869292, 8.247538873140481, 8.73139185250395, 9.25006504729525, 9.804286611707962, 10.398662621187464, 11.041618160765246, 11.736417380936857, 12.471886078002322, 13.23606109513959, 14.054309692163597, 14.868919281781787, 15.666900523657313, 16.259964245660278, 16.770789869426267, 17.06377699410774, 17.10726210604748, 17.06377699410774, 17.085283199328703, 16.982098963093474, 17.042723584909908, 17.129734961899537, 17.042723584909908, 17.129734961899537, 17.001901590389654, 17.129734961899537, 17.001901590389654, 17.15272448012424, 16.962680877236373, 17.06377699410774, 17.042723584909908, 17.042723584909908, 17.022104297707173, 16.962680877236373]
+[11-21 21:16:14] Test EbN0=6, FER_DDPM=[0.6509499035237047, 0.5642521327181036, 0.47725677333990374, 0.3935221887479521, 0.31611526117397093, 0.24674162512159534, 0.1872195107707864, 0.13789870468973991, 0.09855491549124513, 0.06817848194629327, 0.04566344652365349, 0.02952476624897604, 0.01845419135905181, 0.011105873534456277, 0.006445052509983617, 0.003583162406563588, 0.0018923273346303502, 0.0009470636327565022, 0.0004535825824288347, 0.0002101919286299406, 9.109650189432726e-05, 3.9098498617653084e-05, 1.5799393303297153e-05, 7.399715850911325e-06, 3.0998809645709605e-06, 1.4999424022117552e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06]
+[11-21 21:16:14] #It. to zero syndrome: Mean=3.992961970260342, Std=3.827673056549098, Min=0.0, Max=43.0
+[11-21 21:16:14] # of testing samples: [10000384.0]  (6.99 h)
+[11-21 21:16:14] Line Search Reverse Diffusion
+[11-21 21:16:14] EbN0=4: start
+[11-21 21:18:19]   [LS] EbN0=4: 4.710e+04 frames, 267 frame errors, 2790 bit errors, -ln(BER)=7.622, 378 frames/s, at most 7.3 h left
+[11-21 21:20:23]   [LS] EbN0=4: 9.421e+04 frames, 513 frame errors, 5398 bit errors, -ln(BER)=7.655, 378 frames/s, at most 7.3 h left
+[11-21 21:20:39]   [LS] EbN0=4: 1.004e+05 frames, 560 frame errors, 5884 bit errors, -ln(BER)=7.632, 378 frames/s, done
+[11-21 21:20:39] FER count treshold reached EbN0:4
+[11-21 21:20:39] Test EbN0=4, BER=[0.00048457528672626074]
+[11-21 21:20:39] Test EbN0=4, BER_DDPM=[0.0009496325002108281, 0.0004617630239079103, 0.00043853898739247766, 0.0004360683452099848, 0.00043615069994940123, 0.0004369742473435655, 0.0004404331463990555, 0.000443233207539214, 0.00044792742768595044, 0.0004503157151290268, 0.0004519628099173554, 0.0004540216784027661, 0.0004549275805363468, 0.0004576452869370889, 0.0004591276722465846, 0.0004601159291195817, 0.00046258657130207457, 0.0004629983449991567, 0.0004640689566115703, 0.0004653042777028167, 0.0004666219535334795, 0.00046736314618822737, 0.00046818669358239165, 0.00046942201467363806, 0.000470574981025468, 0.000471151464201383, 0.0004709867547225502, 0.00047238678529262947, 0.000474033880080958, 0.0004749397822145387, 0.00047526920117220444, 0.00047543391065103726, 0.0004772457149181987, 0.0004782339717911958, 0.0004790575191853601, 0.0004802104855371901, 0.0004806222592342722, 0.0004806222592342722, 0.0004838340940715129, 0.0004822693540226008, 0.00048309290141676503, 0.00048276348245909935, 0.0004844929319868443, 0.00048457528672626074]
+[11-21 21:20:39] Test EbN0=4, -ln(BER)_DDPM=[6.95943549009565, 7.680458733743094, 7.73206183928914, 7.73771157183126, 7.737522732249922, 7.735636295169082, 7.727751891644933, 7.721414498579915, 7.710879330443805, 7.705561632022926, 7.701910660461045, 7.697365611277083, 7.6953723153375835, 7.689416156586844, 7.686182233538447, 7.684032080407618, 7.678676837334334, 7.677787078400289, 7.67547740339289, 7.6728190057262795, 7.669991149476304, 7.668403987517163, 7.66664342368213, 7.664008376044125, 7.6615552470760475, 7.660330935598237, 7.66068058595145, 7.6577124475873095, 7.654231761859507, 7.652322536251353, 7.6516291751558, 7.651282674805833, 7.647479074092914, 7.6454104644947165, 7.643689885956005, 7.64128603864461, 7.64042892022409, 7.64042892022409, 7.633768490854407, 7.637007774225618, 7.63530158032937, 7.635983708595928, 7.63240771500231, 7.632237748145438]
+[11-21 21:20:39] Test EbN0=4, FER_DDPM=[0.04613759566326531, 0.007314253826530612, 0.0062480070153061226, 0.005929129464285714, 0.005809550382653061, 0.005699936224489796, 0.005650111607142857, 0.005620216836734694, 0.005610251913265306, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143]
+[11-21 21:20:39] #It. to zero syndrome: Mean=1.260692362882653, Std=3.1162293022770853, Min=0.0, Max=43.0
+[11-21 21:20:39] # of testing samples: [100352.0]  (0.07 h)
+[11-21 21:20:39] EbN0=5: start
+[11-21 21:22:43]   [LS] EbN0=5: 4.710e+04 frames, 3 frame errors, 26 bit errors, -ln(BER)=12.298, 381 frames/s, at most 7.3 h left
+[11-21 21:24:46]   [LS] EbN0=5: 9.421e+04 frames, 7 frame errors, 67 bit errors, -ln(BER)=12.044, 382 frames/s, at most 7.2 h left
+[11-21 21:26:48]   [LS] EbN0=5: 1.413e+05 frames, 7 frame errors, 67 bit errors, -ln(BER)=12.450, 383 frames/s, at most 7.1 h left
+[11-21 21:28:51]   [LS] EbN0=5: 1.884e+05 frames, 8 frame errors, 84 bit errors, -ln(BER)=12.511, 384 frames/s, at most 7.1 h left
+[11-21 21:30:52]   [LS] EbN0=5: 2.355e+05 frames, 13 frame errors, 136 bit errors, -ln(BER)=12.253, 384 frames/s, at most 7.1 h left
+[11-21 21:32:56]   [LS] EbN0=5: 2.826e+05 frames, 15 frame errors, 154 bit errors, -ln(BER)=12.311, 384 frames/s, at most 7.0 h left
+[11-21 21:34:59]   [LS] EbN0=5: 3.297e+05 frames, 17 frame errors, 176 bit errors, -ln(BER)=12.331, 384 frames/s, at most 7.0 h left
+[11-21 21:37:02]   [LS] EbN0=5: 3.768e+05 frames, 20 frame errors, 192 bit errors, -ln(BER)=12.378, 384 frames/s, at most 7.0 h left
+[11-21 21:39:04]   [LS] EbN0=5: 4.239e+05 frames, 24 frame errors, 231 bit errors, -ln(BER)=12.311, 384 frames/s, at most 6.9 h left
+[11-21 21:41:07]   [LS] EbN0=5: 4.710e+05 frames, 26 frame errors, 254 bit errors, -ln(BER)=12.321, 384 frames/s, at most 6.9 h left
+[11-21 21:43:11]   [LS] EbN0=5: 5.181e+05 frames, 28 frame errors, 276 bit errors, -ln(BER)=12.333, 384 frames/s, at most 6.9 h left
+[11-21 21:45:14]   [LS] EbN0=5: 5.652e+05 frames, 30 frame errors, 289 bit errors, -ln(BER)=12.374, 383 frames/s, at most 6.8 h left
+[11-21 21:47:17]   [LS] EbN0=5: 6.124e+05 frames, 33 frame errors, 320 bit errors, -ln(BER)=12.353, 383 frames/s, at most 6.8 h left
+[11-21 21:49:21]   [LS] EbN0=5: 6.595e+05 frames, 34 frame errors, 332 bit errors, -ln(BER)=12.390, 383 frames/s, at most 6.8 h left
+[11-21 21:51:23]   [LS] EbN0=5: 7.066e+05 frames, 37 frame errors, 362 bit errors, -ln(BER)=12.372, 383 frames/s, at most 6.7 h left
+[11-21 21:53:26]   [LS] EbN0=5: 7.537e+05 frames, 37 frame errors, 362 bit errors, -ln(BER)=12.437, 383 frames/s, at most 6.7 h left
+[11-21 21:55:30]   [LS] EbN0=5: 8.008e+05 frames, 41 frame errors, 402 bit errors, -ln(BER)=12.393, 383 frames/s, at most 6.7 h left
+[11-21 21:57:33]   [LS] EbN0=5: 8.479e+05 frames, 47 frame errors, 454 bit errors, -ln(BER)=12.328, 383 frames/s, at most 6.6 h left
+[11-21 21:59:35]   [LS] EbN0=5: 8.950e+05 frames, 49 frame errors, 482 bit errors, -ln(BER)=12.322, 383 frames/s, at most 6.6 h left
+[11-21 22:01:37]   [LS] EbN0=5: 9.421e+05 frames, 52 frame errors, 508 bit errors, -ln(BER)=12.321, 383 frames/s, at most 6.6 h left
+[11-21 22:03:40]   [LS] EbN0=5: 9.892e+05 frames, 55 frame errors, 538 bit errors, -ln(BER)=12.313, 383 frames/s, at most 6.5 h left
+[11-21 22:05:44]   [LS] EbN0=5: 1.036e+06 frames, 59 frame errors, 578 bit errors, -ln(BER)=12.287, 383 frames/s, at most 6.5 h left
+[11-21 22:07:48]   [LS] EbN0=5: 1.083e+06 frames, 63 frame errors, 636 bit errors, -ln(BER)=12.236, 383 frames/s, at most 6.5 h left
+[11-21 22:09:51]   [LS] EbN0=5: 1.130e+06 frames, 66 frame errors, 665 bit errors, -ln(BER)=12.234, 383 frames/s, at most 6.4 h left
+[11-21 22:11:55]   [LS] EbN0=5: 1.178e+06 frames, 74 frame errors, 731 bit errors, -ln(BER)=12.180, 383 frames/s, at most 6.4 h left
+[11-21 22:13:59]   [LS] EbN0=5: 1.225e+06 frames, 80 frame errors, 778 bit errors, -ln(BER)=12.157, 383 frames/s, at most 6.4 h left
+[11-21 22:16:04]   [LS] EbN0=5: 1.272e+06 frames, 83 frame errors, 807 bit errors, -ln(BER)=12.158, 383 frames/s, at most 6.3 h left
+[11-21 22:18:07]   [LS] EbN0=5: 1.319e+06 frames, 88 frame errors, 857 bit errors, -ln(BER)=12.135, 383 frames/s, at most 6.3 h left
+[11-21 22:20:11]   [LS] EbN0=5: 1.366e+06 frames, 90 frame errors, 874 bit errors, -ln(BER)=12.150, 382 frames/s, at most 6.3 h left
+[11-21 22:22:16]   [LS] EbN0=5: 1.413e+06 frames, 93 frame errors, 907 bit errors, -ln(BER)=12.147, 382 frames/s, at most 6.2 h left
+[11-21 22:24:20]   [LS] EbN0=5: 1.460e+06 frames, 96 frame errors, 936 bit errors, -ln(BER)=12.148, 382 frames/s, at most 6.2 h left
+[11-21 22:26:23]   [LS] EbN0=5: 1.507e+06 frames, 98 frame errors, 959 bit errors, -ln(BER)=12.156, 382 frames/s, at most 6.2 h left
+[11-21 22:28:09]   [LS] EbN0=5: 1.548e+06 frames, 102 frame errors, 998 bit errors, -ln(BER)=12.143, 382 frames/s, done
+[11-21 22:28:09] FER count treshold reached EbN0:5
+[11-21 22:28:09] Test EbN0=5, BER=[5.327131570029297e-06]
+[11-21 22:28:09] Test EbN0=5, BER_DDPM=[3.418865501606979e-05, 5.273753498185316e-06, 4.841391116249071e-06, 4.766661815667497e-06, 4.681256900717128e-06, 4.825377694695877e-06, 4.830715501880274e-06, 4.718621551007915e-06, 4.734634972561109e-06, 4.771999622851896e-06, 4.782675237220692e-06, 4.905444802461848e-06, 4.937471645568236e-06, 4.953485067121431e-06, 4.980174103043421e-06, 4.9588228743058285e-06, 5.006863138965412e-06, 4.9908497174122174e-06, 5.0655790179937906e-06, 5.060241210809393e-06, 5.049565596440596e-06, 5.070916825178189e-06, 5.1082814754689756e-06, 5.145646125759762e-06, 5.145646125759762e-06, 5.145646125759762e-06, 5.166997354497354e-06, 5.204362004788141e-06, 5.252402269447724e-06, 5.252402269447724e-06, 5.273753498185316e-06, 5.273753498185316e-06, 5.273753498185316e-06, 5.257740076632122e-06, 5.273753498185316e-06, 5.279091305369715e-06, 5.289766919738511e-06, 5.284429112554112e-06, 5.273753498185316e-06, 5.257740076632122e-06, 5.279091305369715e-06, 5.268415691000918e-06, 5.385847449057676e-06, 5.327131570029297e-06]
+[11-21 22:28:09] Test EbN0=5, -ln(BER)_DDPM=[10.283616693604838, 12.152768210187805, 12.238308457820535, 12.253864327059173, 12.27194391556349, 12.241621547543495, 12.240515964235746, 12.26399384529803, 12.260605925626093, 12.252745132762158, 12.250510494960743, 12.225164785579985, 12.218657170423247, 12.215419175149473, 12.210045707088328, 12.214342169121833, 12.204700958929449, 12.207904378646985, 12.193042109325745, 12.19409640568065, 12.196208338883794, 12.191988923341086, 12.184647516482718, 12.177359613325127, 12.177359613325127, 12.177359613325127, 12.173218820659095, 12.166013436937826, 12.156825010883418, 12.156825010883418, 12.152768210187805, 12.152768210187805, 12.152768210187805, 12.155809266763583, 12.152768210187805, 12.15175657631296, 12.149736373605684, 12.150745964807037, 12.152768210187805, 12.155809266763583, 12.15175657631296, 12.15378086850219, 12.131735887582064, 12.142697631624209]
+[11-21 22:28:09] Test EbN0=5, FER_DDPM=[0.0031602647569444445, 9.752707506613757e-05, 7.815083498677249e-05, 7.36297123015873e-05, 7.104621362433862e-05, 6.910858961640212e-05, 6.910858961640212e-05, 6.846271494708994e-05, 6.781684027777778e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.652509093915344e-05, 6.652509093915344e-05, 6.652509093915344e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05]
+[11-21 22:28:09] #It. to zero syndrome: Mean=0.9238604187334656, Std=0.4389814548984001, Min=0.0, Max=43.0
+[11-21 22:28:09] # of testing samples: [1548288.0]  (1.12 h)
+[11-21 22:28:09] EbN0=6: start
+[11-21 22:30:12]   [LS] EbN0=6: 4.710e+04 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.2 h left
+[11-21 22:32:14]   [LS] EbN0=6: 9.421e+04 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.1 h left
+[11-21 22:34:17]   [LS] EbN0=6: 1.413e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.1 h left
+[11-21 22:36:19]   [LS] EbN0=6: 1.884e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.1 h left
+[11-21 22:38:22]   [LS] EbN0=6: 2.355e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.1 h left
+[11-21 22:40:24]   [LS] EbN0=6: 2.826e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.0 h left
+[11-21 22:42:26]   [LS] EbN0=6: 3.297e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 385 frames/s, at most 7.0 h left
+[11-21 22:44:31]   [LS] EbN0=6: 3.768e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 384 frames/s, at most 7.0 h left
+[11-21 22:46:34]   [LS] EbN0=6: 4.239e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 384 frames/s, at most 6.9 h left
+[11-21 22:48:38]   [LS] EbN0=6: 4.710e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.9 h left
+[11-21 22:50:42]   [LS] EbN0=6: 5.181e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.9 h left
+[11-21 22:52:44]   [LS] EbN0=6: 5.652e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.8 h left
+[11-21 22:54:48]   [LS] EbN0=6: 6.124e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.8 h left
+[11-21 22:56:52]   [LS] EbN0=6: 6.595e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.8 h left
+[11-21 22:58:55]   [LS] EbN0=6: 7.066e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.7 h left
+[11-21 23:00:57]   [LS] EbN0=6: 7.537e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.7 h left
+[11-21 23:03:01]   [LS] EbN0=6: 8.008e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.7 h left
+[11-21 23:05:04]   [LS] EbN0=6: 8.479e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.6 h left
+[11-21 23:07:07]   [LS] EbN0=6: 8.950e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.6 h left
+[11-21 23:09:11]   [LS] EbN0=6: 9.421e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.6 h left
+[11-21 23:11:14]   [LS] EbN0=6: 9.892e+05 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.5 h left
+[11-21 23:13:17]   [LS] EbN0=6: 1.036e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.5 h left
+[11-21 23:15:22]   [LS] EbN0=6: 1.083e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.5 h left
+[11-21 23:17:25]   [LS] EbN0=6: 1.130e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.4 h left
+[11-21 23:19:29]   [LS] EbN0=6: 1.178e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.4 h left
+[11-21 23:21:32]   [LS] EbN0=6: 1.225e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.4 h left
+[11-21 23:23:36]   [LS] EbN0=6: 1.272e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.3 h left
+[11-21 23:25:40]   [LS] EbN0=6: 1.319e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.3 h left
+[11-21 23:27:43]   [LS] EbN0=6: 1.366e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.3 h left
+[11-21 23:29:45]   [LS] EbN0=6: 1.413e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.2 h left
+[11-21 23:31:48]   [LS] EbN0=6: 1.460e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.2 h left
+[11-21 23:33:51]   [LS] EbN0=6: 1.507e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.2 h left
+[11-21 23:35:53]   [LS] EbN0=6: 1.554e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.1 h left
+[11-21 23:37:56]   [LS] EbN0=6: 1.602e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 383 frames/s, at most 6.1 h left
+[11-21 23:40:00]   [LS] EbN0=6: 1.649e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.1 h left
+[11-21 23:42:04]   [LS] EbN0=6: 1.696e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.0 h left
+[11-21 23:44:08]   [LS] EbN0=6: 1.743e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.0 h left
+[11-21 23:46:12]   [LS] EbN0=6: 1.790e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 6.0 h left
+[11-21 23:48:16]   [LS] EbN0=6: 1.837e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.9 h left
+[11-21 23:50:20]   [LS] EbN0=6: 1.884e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.9 h left
+[11-21 23:52:22]   [LS] EbN0=6: 1.931e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.9 h left
+[11-21 23:54:25]   [LS] EbN0=6: 1.978e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.8 h left
+[11-21 23:56:28]   [LS] EbN0=6: 2.025e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.8 h left
+[11-21 23:58:31]   [LS] EbN0=6: 2.073e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.8 h left
+[11-22 00:00:34]   [LS] EbN0=6: 2.120e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.7 h left
+[11-22 00:02:38]   [LS] EbN0=6: 2.167e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.7 h left
+[11-22 00:04:42]   [LS] EbN0=6: 2.214e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.7 h left
+[11-22 00:06:45]   [LS] EbN0=6: 2.261e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.6 h left
+[11-22 00:08:48]   [LS] EbN0=6: 2.308e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.6 h left
+[11-22 00:10:52]   [LS] EbN0=6: 2.355e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.6 h left
+[11-22 00:12:54]   [LS] EbN0=6: 2.402e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.5 h left
+[11-22 00:14:57]   [LS] EbN0=6: 2.449e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.5 h left
+[11-22 00:17:00]   [LS] EbN0=6: 2.497e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.5 h left
+[11-22 00:19:04]   [LS] EbN0=6: 2.544e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.4 h left
+[11-22 00:21:08]   [LS] EbN0=6: 2.591e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.4 h left
+[11-22 00:23:12]   [LS] EbN0=6: 2.638e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.4 h left
+[11-22 00:25:16]   [LS] EbN0=6: 2.685e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.3 h left
+[11-22 00:27:20]   [LS] EbN0=6: 2.732e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.3 h left
+[11-22 00:29:22]   [LS] EbN0=6: 2.779e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.2 h left
+[11-22 00:31:24]   [LS] EbN0=6: 2.826e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.2 h left
+[11-22 00:33:27]   [LS] EbN0=6: 2.873e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.2 h left
+[11-22 00:35:31]   [LS] EbN0=6: 2.920e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.1 h left
+[11-22 00:37:34]   [LS] EbN0=6: 2.968e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.1 h left
+[11-22 00:39:38]   [LS] EbN0=6: 3.015e+06 frames, 0 frame errors, 0 bit errors, -ln(BER)=inf, 382 frames/s, at most 5.1 h left
+[11-22 00:41:41]   [LS] EbN0=6: 3.062e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.730, 382 frames/s, at most 5.0 h left
+[11-22 00:43:45]   [LS] EbN0=6: 3.109e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.746, 382 frames/s, at most 5.0 h left
+[11-22 00:45:47]   [LS] EbN0=6: 3.156e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.761, 382 frames/s, at most 5.0 h left
+[11-22 00:47:49]   [LS] EbN0=6: 3.203e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.775, 382 frames/s, at most 4.9 h left
+[11-22 00:49:52]   [LS] EbN0=6: 3.250e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.790, 382 frames/s, at most 4.9 h left
+[11-22 00:51:54]   [LS] EbN0=6: 3.297e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.804, 382 frames/s, at most 4.9 h left
+[11-22 00:53:57]   [LS] EbN0=6: 3.344e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.819, 382 frames/s, at most 4.8 h left
+[11-22 00:55:59]   [LS] EbN0=6: 3.391e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.833, 382 frames/s, at most 4.8 h left
+[11-22 00:58:03]   [LS] EbN0=6: 3.439e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.846, 382 frames/s, at most 4.8 h left
+[11-22 01:00:05]   [LS] EbN0=6: 3.486e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.860, 382 frames/s, at most 4.7 h left
+[11-22 01:02:09]   [LS] EbN0=6: 3.533e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.873, 382 frames/s, at most 4.7 h left
+[11-22 01:04:13]   [LS] EbN0=6: 3.580e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.887, 382 frames/s, at most 4.7 h left
+[11-22 01:06:16]   [LS] EbN0=6: 3.627e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.900, 382 frames/s, at most 4.6 h left
+[11-22 01:08:19]   [LS] EbN0=6: 3.674e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.913, 382 frames/s, at most 4.6 h left
+[11-22 01:10:22]   [LS] EbN0=6: 3.721e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.925, 382 frames/s, at most 4.6 h left
+[11-22 01:12:26]   [LS] EbN0=6: 3.768e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.938, 382 frames/s, at most 4.5 h left
+[11-22 01:14:29]   [LS] EbN0=6: 3.815e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.950, 382 frames/s, at most 4.5 h left
+[11-22 01:16:32]   [LS] EbN0=6: 3.863e+06 frames, 1 frame errors, 1 bit errors, -ln(BER)=19.963, 382 frames/s, at most 4.5 h left
+[11-22 01:18:36]   [LS] EbN0=6: 3.910e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.282, 382 frames/s, at most 4.4 h left
+[11-22 01:20:39]   [LS] EbN0=6: 3.957e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.294, 382 frames/s, at most 4.4 h left
+[11-22 01:22:42]   [LS] EbN0=6: 4.004e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.305, 382 frames/s, at most 4.4 h left
+[11-22 01:24:45]   [LS] EbN0=6: 4.051e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.317, 382 frames/s, at most 4.3 h left
+[11-22 01:26:47]   [LS] EbN0=6: 4.098e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.329, 382 frames/s, at most 4.3 h left
+[11-22 01:28:50]   [LS] EbN0=6: 4.145e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.340, 382 frames/s, at most 4.3 h left
+[11-22 01:30:54]   [LS] EbN0=6: 4.192e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.351, 382 frames/s, at most 4.2 h left
+[11-22 01:32:56]   [LS] EbN0=6: 4.239e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.363, 382 frames/s, at most 4.2 h left
+[11-22 01:34:59]   [LS] EbN0=6: 4.286e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.374, 382 frames/s, at most 4.2 h left
+[11-22 01:37:02]   [LS] EbN0=6: 4.334e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.385, 382 frames/s, at most 4.1 h left
+[11-22 01:39:05]   [LS] EbN0=6: 4.381e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.395, 382 frames/s, at most 4.1 h left
+[11-22 01:41:09]   [LS] EbN0=6: 4.428e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.406, 382 frames/s, at most 4.0 h left
+[11-22 01:43:12]   [LS] EbN0=6: 4.475e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.417, 382 frames/s, at most 4.0 h left
+[11-22 01:45:16]   [LS] EbN0=6: 4.522e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.427, 382 frames/s, at most 4.0 h left
+[11-22 01:47:20]   [LS] EbN0=6: 4.569e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.437, 382 frames/s, at most 3.9 h left
+[11-22 01:49:24]   [LS] EbN0=6: 4.616e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.448, 382 frames/s, at most 3.9 h left
+[11-22 01:51:28]   [LS] EbN0=6: 4.663e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.458, 382 frames/s, at most 3.9 h left
+[11-22 01:53:30]   [LS] EbN0=6: 4.710e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.468, 382 frames/s, at most 3.8 h left
+[11-22 01:55:33]   [LS] EbN0=6: 4.758e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.478, 382 frames/s, at most 3.8 h left
+[11-22 01:57:36]   [LS] EbN0=6: 4.805e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.488, 382 frames/s, at most 3.8 h left
+[11-22 01:59:40]   [LS] EbN0=6: 4.852e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.497, 382 frames/s, at most 3.7 h left
+[11-22 02:01:43]   [LS] EbN0=6: 4.899e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.507, 382 frames/s, at most 3.7 h left
+[11-22 02:03:47]   [LS] EbN0=6: 4.946e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.517, 382 frames/s, at most 3.7 h left
+[11-22 02:05:51]   [LS] EbN0=6: 4.993e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.526, 382 frames/s, at most 3.6 h left
+[11-22 02:07:55]   [LS] EbN0=6: 5.040e+06 frames, 2 frame errors, 2 bit errors, -ln(BER)=19.536, 382 frames/s, at most 3.6 h left
+[11-22 02:09:58]   [LS] EbN0=6: 5.087e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.139, 382 frames/s, at most 3.6 h left
+[11-22 02:12:01]   [LS] EbN0=6: 5.134e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.149, 382 frames/s, at most 3.5 h left
+[11-22 02:14:05]   [LS] EbN0=6: 5.181e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.158, 382 frames/s, at most 3.5 h left
+[11-22 02:16:08]   [LS] EbN0=6: 5.229e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.167, 382 frames/s, at most 3.5 h left
+[11-22 02:18:11]   [LS] EbN0=6: 5.276e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.176, 382 frames/s, at most 3.4 h left
+[11-22 02:20:14]   [LS] EbN0=6: 5.323e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.185, 382 frames/s, at most 3.4 h left
+[11-22 02:22:16]   [LS] EbN0=6: 5.370e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.193, 382 frames/s, at most 3.4 h left
+[11-22 02:24:19]   [LS] EbN0=6: 5.417e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.202, 382 frames/s, at most 3.3 h left
+[11-22 02:26:20]   [LS] EbN0=6: 5.464e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.211, 382 frames/s, at most 3.3 h left
+[11-22 02:28:22]   [LS] EbN0=6: 5.511e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.219, 382 frames/s, at most 3.3 h left
+[11-22 02:30:25]   [LS] EbN0=6: 5.558e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.228, 382 frames/s, at most 3.2 h left
+[11-22 02:32:29]   [LS] EbN0=6: 5.605e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.236, 382 frames/s, at most 3.2 h left
+[11-22 02:34:32]   [LS] EbN0=6: 5.652e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.245, 382 frames/s, at most 3.2 h left
+[11-22 02:36:34]   [LS] EbN0=6: 5.700e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.253, 382 frames/s, at most 3.1 h left
+[11-22 02:38:37]   [LS] EbN0=6: 5.747e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.261, 382 frames/s, at most 3.1 h left
+[11-22 02:40:41]   [LS] EbN0=6: 5.794e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.269, 382 frames/s, at most 3.1 h left
+[11-22 02:42:44]   [LS] EbN0=6: 5.841e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.278, 382 frames/s, at most 3.0 h left
+[11-22 02:44:47]   [LS] EbN0=6: 5.888e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.286, 382 frames/s, at most 3.0 h left
+[11-22 02:46:49]   [LS] EbN0=6: 5.935e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.294, 382 frames/s, at most 3.0 h left
+[11-22 02:48:51]   [LS] EbN0=6: 5.982e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.301, 382 frames/s, at most 2.9 h left
+[11-22 02:50:54]   [LS] EbN0=6: 6.029e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.309, 382 frames/s, at most 2.9 h left
+[11-22 02:52:57]   [LS] EbN0=6: 6.076e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.317, 382 frames/s, at most 2.8 h left
+[11-22 02:55:01]   [LS] EbN0=6: 6.124e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.325, 382 frames/s, at most 2.8 h left
+[11-22 02:57:03]   [LS] EbN0=6: 6.171e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.332, 382 frames/s, at most 2.8 h left
+[11-22 02:59:07]   [LS] EbN0=6: 6.218e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.340, 382 frames/s, at most 2.7 h left
+[11-22 03:01:10]   [LS] EbN0=6: 6.265e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.348, 382 frames/s, at most 2.7 h left
+[11-22 03:03:13]   [LS] EbN0=6: 6.312e+06 frames, 3 frame errors, 3 bit errors, -ln(BER)=19.355, 382 frames/s, at most 2.7 h left
+[11-22 03:05:18]   [LS] EbN0=6: 6.359e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.075, 382 frames/s, at most 2.6 h left
+[11-22 03:07:21]   [LS] EbN0=6: 6.406e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.082, 382 frames/s, at most 2.6 h left
+[11-22 03:09:24]   [LS] EbN0=6: 6.453e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.090, 382 frames/s, at most 2.6 h left
+[11-22 03:11:28]   [LS] EbN0=6: 6.500e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.097, 382 frames/s, at most 2.5 h left
+[11-22 03:13:31]   [LS] EbN0=6: 6.547e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.104, 382 frames/s, at most 2.5 h left
+[11-22 03:15:34]   [LS] EbN0=6: 6.595e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.111, 382 frames/s, at most 2.5 h left
+[11-22 03:17:38]   [LS] EbN0=6: 6.642e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.118, 382 frames/s, at most 2.4 h left
+[11-22 03:19:41]   [LS] EbN0=6: 6.689e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.125, 382 frames/s, at most 2.4 h left
+[11-22 03:21:45]   [LS] EbN0=6: 6.736e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.132, 382 frames/s, at most 2.4 h left
+[11-22 03:23:48]   [LS] EbN0=6: 6.783e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.139, 382 frames/s, at most 2.3 h left
+[11-22 03:25:51]   [LS] EbN0=6: 6.830e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.146, 382 frames/s, at most 2.3 h left
+[11-22 03:27:53]   [LS] EbN0=6: 6.877e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.153, 382 frames/s, at most 2.3 h left
+[11-22 03:29:55]   [LS] EbN0=6: 6.924e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.160, 382 frames/s, at most 2.2 h left
+[11-22 03:31:57]   [LS] EbN0=6: 6.971e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.167, 382 frames/s, at most 2.2 h left
+[11-22 03:34:00]   [LS] EbN0=6: 7.018e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.174, 382 frames/s, at most 2.2 h left
+[11-22 03:36:02]   [LS] EbN0=6: 7.066e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.180, 382 frames/s, at most 2.1 h left
+[11-22 03:38:05]   [LS] EbN0=6: 7.113e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.187, 382 frames/s, at most 2.1 h left
+[11-22 03:40:07]   [LS] EbN0=6: 7.160e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.193, 383 frames/s, at most 2.1 h left
+[11-22 03:42:10]   [LS] EbN0=6: 7.207e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.200, 383 frames/s, at most 2.0 h left
+[11-22 03:44:12]   [LS] EbN0=6: 7.254e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.207, 383 frames/s, at most 2.0 h left
+[11-22 03:46:15]   [LS] EbN0=6: 7.301e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.213, 383 frames/s, at most 2.0 h left
+[11-22 03:48:17]   [LS] EbN0=6: 7.348e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.219, 383 frames/s, at most 1.9 h left
+[11-22 03:50:21]   [LS] EbN0=6: 7.395e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.226, 383 frames/s, at most 1.9 h left
+[11-22 03:52:24]   [LS] EbN0=6: 7.442e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.232, 383 frames/s, at most 1.9 h left
+[11-22 03:54:27]   [LS] EbN0=6: 7.490e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.239, 383 frames/s, at most 1.8 h left
+[11-22 03:56:30]   [LS] EbN0=6: 7.537e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.245, 383 frames/s, at most 1.8 h left
+[11-22 03:58:32]   [LS] EbN0=6: 7.584e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.251, 383 frames/s, at most 1.8 h left
+[11-22 04:00:36]   [LS] EbN0=6: 7.631e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.257, 383 frames/s, at most 1.7 h left
+[11-22 04:02:40]   [LS] EbN0=6: 7.678e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.263, 383 frames/s, at most 1.7 h left
+[11-22 04:04:43]   [LS] EbN0=6: 7.725e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.269, 383 frames/s, at most 1.7 h left
+[11-22 04:06:47]   [LS] EbN0=6: 7.772e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.276, 383 frames/s, at most 1.6 h left
+[11-22 04:08:50]   [LS] EbN0=6: 7.819e+06 frames, 4 frame errors, 4 bit errors, -ln(BER)=19.282, 383 frames/s, at most 1.6 h left
+[11-22 04:10:54]   [LS] EbN0=6: 7.866e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.064, 383 frames/s, at most 1.5 h left
+[11-22 04:12:58]   [LS] EbN0=6: 7.913e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.070, 383 frames/s, at most 1.5 h left
+[11-22 04:15:01]   [LS] EbN0=6: 7.961e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.076, 382 frames/s, at most 1.5 h left
+[11-22 04:17:05]   [LS] EbN0=6: 8.008e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.082, 382 frames/s, at most 1.4 h left
+[11-22 04:19:08]   [LS] EbN0=6: 8.055e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.088, 382 frames/s, at most 1.4 h left
+[11-22 04:21:12]   [LS] EbN0=6: 8.102e+06 frames, 5 frame errors, 5 bit errors, -ln(BER)=19.094, 382 frames/s, at most 1.4 h left
+[11-22 04:23:15]   [LS] EbN0=6: 8.149e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.917, 382 frames/s, at most 1.3 h left
+[11-22 04:25:18]   [LS] EbN0=6: 8.196e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.923, 382 frames/s, at most 1.3 h left
+[11-22 04:27:20]   [LS] EbN0=6: 8.243e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.929, 383 frames/s, at most 1.3 h left
+[11-22 04:29:22]   [LS] EbN0=6: 8.290e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.935, 383 frames/s, at most 1.2 h left
+[11-22 04:31:24]   [LS] EbN0=6: 8.337e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.940, 383 frames/s, at most 1.2 h left
+[11-22 04:33:26]   [LS] EbN0=6: 8.385e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.946, 383 frames/s, at most 1.2 h left
+[11-22 04:35:30]   [LS] EbN0=6: 8.432e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.952, 383 frames/s, at most 1.1 h left
+[11-22 04:37:34]   [LS] EbN0=6: 8.479e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.957, 383 frames/s, at most 1.1 h left
+[11-22 04:39:39]   [LS] EbN0=6: 8.526e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.963, 383 frames/s, at most 1.1 h left
+[11-22 04:41:43]   [LS] EbN0=6: 8.573e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.968, 382 frames/s, at most 1.0 h left
+[11-22 04:43:47]   [LS] EbN0=6: 8.620e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.974, 382 frames/s, at most 1.0 h left
+[11-22 04:45:51]   [LS] EbN0=6: 8.667e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.979, 382 frames/s, at most 1.0 h left
+[11-22 04:47:54]   [LS] EbN0=6: 8.714e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.985, 382 frames/s, at most 0.9 h left
+[11-22 04:49:57]   [LS] EbN0=6: 8.761e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.990, 382 frames/s, at most 0.9 h left
+[11-22 04:52:00]   [LS] EbN0=6: 8.808e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=18.995, 382 frames/s, at most 0.9 h left
+[11-22 04:54:02]   [LS] EbN0=6: 8.856e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.001, 382 frames/s, at most 0.8 h left
+[11-22 04:56:05]   [LS] EbN0=6: 8.903e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.006, 382 frames/s, at most 0.8 h left
+[11-22 04:58:07]   [LS] EbN0=6: 8.950e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.011, 383 frames/s, at most 0.8 h left
+[11-22 05:00:10]   [LS] EbN0=6: 8.997e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.016, 383 frames/s, at most 0.7 h left
+[11-22 05:02:14]   [LS] EbN0=6: 9.044e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.022, 383 frames/s, at most 0.7 h left
+[11-22 05:04:17]   [LS] EbN0=6: 9.091e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.027, 382 frames/s, at most 0.7 h left
+[11-22 05:06:21]   [LS] EbN0=6: 9.138e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.032, 382 frames/s, at most 0.6 h left
+[11-22 05:08:25]   [LS] EbN0=6: 9.185e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.037, 382 frames/s, at most 0.6 h left
+[11-22 05:10:29]   [LS] EbN0=6: 9.232e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.042, 382 frames/s, at most 0.6 h left
+[11-22 05:12:33]   [LS] EbN0=6: 9.279e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.047, 382 frames/s, at most 0.5 h left
+[11-22 05:14:37]   [LS] EbN0=6: 9.327e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.052, 382 frames/s, at most 0.5 h left
+[11-22 05:16:41]   [LS] EbN0=6: 9.374e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.057, 382 frames/s, at most 0.5 h left
+[11-22 05:18:43]   [LS] EbN0=6: 9.421e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.062, 382 frames/s, at most 0.4 h left
+[11-22 05:20:46]   [LS] EbN0=6: 9.468e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.067, 382 frames/s, at most 0.4 h left
+[11-22 05:22:49]   [LS] EbN0=6: 9.515e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.072, 382 frames/s, at most 0.4 h left
+[11-22 05:24:52]   [LS] EbN0=6: 9.562e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.077, 382 frames/s, at most 0.3 h left
+[11-22 05:26:55]   [LS] EbN0=6: 9.609e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.082, 382 frames/s, at most 0.3 h left
+[11-22 05:28:58]   [LS] EbN0=6: 9.656e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.087, 382 frames/s, at most 0.2 h left
+[11-22 05:31:01]   [LS] EbN0=6: 9.703e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.092, 382 frames/s, at most 0.2 h left
+[11-22 05:33:04]   [LS] EbN0=6: 9.751e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.097, 382 frames/s, at most 0.2 h left
+[11-22 05:35:09]   [LS] EbN0=6: 9.798e+06 frames, 6 frame errors, 6 bit errors, -ln(BER)=19.102, 382 frames/s, at most 0.1 h left
+[11-22 05:37:12]   [LS] EbN0=6: 9.845e+06 frames, 7 frame errors, 7 bit errors, -ln(BER)=18.952, 382 frames/s, at most 0.1 h left
+[11-22 05:39:16]   [LS] EbN0=6: 9.892e+06 frames, 7 frame errors, 7 bit errors, -ln(BER)=18.957, 382 frames/s, at most 0.1 h left
+[11-22 05:41:20]   [LS] EbN0=6: 9.939e+06 frames, 7 frame errors, 7 bit errors, -ln(BER)=18.962, 382 frames/s, at most 0.0 h left
+[11-22 05:43:24]   [LS] EbN0=6: 9.986e+06 frames, 7 frame errors, 7 bit errors, -ln(BER)=18.967, 382 frames/s, at most 0.0 h left
+[11-22 05:44:01]   [LS] EbN0=6: 1.000e+07 frames, 7 frame errors, 7 bit errors, -ln(BER)=18.968, 382 frames/s, done
+[11-22 05:44:01] Cum count reached EbN0:6
+[11-22 05:44:01] Test EbN0=6, BER=[5.784901826712003e-09]
+[11-22 05:44:01] Test EbN0=6, BER_DDPM=[8.041013539129684e-07, 1.0743389106750863e-08, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09]
+[11-22 05:44:01] Test EbN0=6, -ln(BER)_DDPM=[14.033540513631795, 18.348975238356264, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485]
+[11-22 05:44:01] Test EbN0=6, FER_DDPM=[9.619630606184722e-05, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07]
+[11-22 05:44:01] #It. to zero syndrome: Mean=0.7339384167647962, Std=0.44292979317636233, Min=0.0, Max=43.0
+[11-22 05:44:01] # of testing samples: [10000384.0]  (7.26 h)
+[11-22 14:36:44] ===== LDPC(121,80) model /content/drive/MyDrive/DDECC_results/LDPC__Code_n_121_k_80__16_11_2026_07_28_54/best_model
+[11-22 14:36:45] Regular Reverse Diffusion
+[11-22 14:36:45] FER count treshold reached EbN0:4
+[11-22 14:36:45] Test EbN0=4, BER=[0.0003855848899477146]
+[11-22 14:36:45] Test EbN0=4, BER_DDPM=[0.03083896749557261, 0.027620297214960364, 0.02457103063332771, 0.02168985007484399, 0.01896135520323832, 0.016400205162126834, 0.014053753926673976, 0.011888071344240175, 0.009935934601113172, 0.008216367642098162, 0.0067021934031877214, 0.005405765095294316, 0.0042938114036937085, 0.0033683911968713106, 0.002618386585005903, 0.002020738241060887, 0.0015569163486675662, 0.0012051792566200035, 0.0009469971485495024, 0.0007567577004975544, 0.0006217782825940294, 0.0005292115554899646, 0.00046835140306122447, 0.0004285740639230899, 0.0004075736053719008, 0.0003906085290521167, 0.00038533782572946535, 0.00037858473709731825, 0.000377761189703154, 0.00037487877382357904, 0.00037586703069657614, 0.00037529054752066115, 0.00037636115913307474, 0.00037487877382357904, 0.000378337672879069, 0.00037792589918198683, 0.00038130244349806035, 0.0003793259297520661, 0.00038327895724405466, 0.0003799847676673975, 0.0003845966330747175, 0.0003839377951593861, 0.00038509076151121605, 0.0003855848899477146]
+[11-22 14:36:45] Test EbN0=4, -ln(BER)_DDPM=[3.478976210238746, 3.589204370198629, 3.7061871465104077, 3.8309108663459437, 3.9653523077455715, 4.11046143434445, 4.264865735496343, 4.432219789658643, 4.611597335826246, 4.801627060266183, 5.005320432550157, 5.220289284662739, 5.450580501381177, 5.693320038257016, 5.945196958145949, 6.204292368463682, 6.465048113541733, 6.721126962422791, 6.962214475818102, 7.186467434365881, 7.382926987623696, 7.544122290190963, 7.666291682559966, 7.75504699023437, 7.80528901491488, 7.847804703989184, 7.86139013900055, 7.879070634060538, 7.881248335269594, 7.888907854060599, 7.8862751188848, 7.8878100386028835, 7.884961345978516, 7.888907854060599, 7.879723446617723, 7.880812415471933, 7.871917682786487, 7.877114749486136, 7.866747486004529, 7.875379391133067, 7.863315479203823, 7.865030010271064, 7.862031507274807, 7.86074918181591]
+[11-22 14:36:45] Test EbN0=4, FER_DDPM=[0.9735929528061225, 0.9565728635204082, 0.9326470822704082, 0.902214205994898, 0.8628726881377551, 0.8140644929846939, 0.7578125, 0.6930504623724489, 0.6218610491071429, 0.5486786511479592, 0.4744399713010204, 0.40185546875, 0.33265904017857145, 0.2677375637755102, 0.21110690369897958, 0.16212930484693877, 0.12181122448979592, 0.08965441645408163, 0.06487165178571429, 0.04616749043367347, 0.03199736926020408, 0.02255062181122449, 0.016003667091836735, 0.011788504464285714, 0.009337133290816327, 0.007742745535714286, 0.006756218112244898, 0.006058673469387755, 0.005630181760204082, 0.005361128826530612, 0.005181760204081632, 0.005072146045918368, 0.0049824617346938774, 0.004942602040816327, 0.004892777423469388, 0.004852917729591837, 0.004852917729591837, 0.004832987882653061, 0.004813058035714286, 0.004813058035714286, 0.004803093112244898, 0.00479312818877551, 0.0047831632653061226, 0.0047731983418367345]
+[11-22 14:36:45] #It. to zero syndrome: Mean=11.402293925382653, Std=5.638085138170149, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [100352.0]  (0.07 h)
+[11-22 14:36:45] FER count treshold reached EbN0:5
+[11-22 14:36:45] Test EbN0=5, BER=[3.6585844929303993e-06]
+[11-22 14:36:45] Test EbN0=5, BER_DDPM=[0.01772841057541115, 0.015205125771681769, 0.012884469016302814, 0.010778218277293056, 0.008882856775760065, 0.0072124678336279, 0.005754803498601846, 0.004509628778543928, 0.0034677060514786417, 0.0026114352165894986, 0.0019241561416119021, 0.0013884875115129942, 0.0009768825754982741, 0.0006689172755069866, 0.00044613257394246405, 0.0002900532268536958, 0.00018319662949317932, 0.0001127921746386372, 6.773445797653423e-05, 4.034977072546384e-05, 2.4066436199342827e-05, 1.4346675182133493e-05, 9.11202272934714e-06, 6.26780754215208e-06, 4.829493594211557e-06, 4.165033066148893e-06, 3.897628219489528e-06, 3.699100378787879e-06, 3.6504813157589035e-06, 3.5897074869726843e-06, 3.5451400125294566e-06, 3.5775527212154405e-06, 3.5694495440439443e-06, 3.59781066414418e-06, 3.6221201956586678e-06, 3.6302233728301635e-06, 3.6383265500016597e-06, 3.6180686070729197e-06, 3.666687670101895e-06, 3.609965429901424e-06, 3.7031519673736266e-06, 3.6383265500016597e-06, 3.7274614988881142e-06, 3.6585844929303993e-06]
+[11-22 14:36:45] Test EbN0=5, -ln(BER)_DDPM=[4.032586808971369, 4.186122686155236, 4.351732645171814, 4.530228007561127, 4.723632064733308, 4.931944106966821, 5.1577203818565875, 5.4015404395994056, 5.6642619838988, 5.9478553173688145, 6.2532677753475445, 6.579540245486896, 6.931144101989914, 7.309850159432519, 7.714894399122461, 8.145446110950507, 8.604950503856484, 9.089963595077734, 9.599915527081636, 10.117924845409098, 10.634692376984047, 11.151992337228833, 11.605915837381422, 11.980083938767672, 12.240768941715443, 12.388786343325627, 12.455142338675032, 12.50742090874577, 12.5206515317324, 12.537439838735656, 12.549932902983123, 12.540831588736777, 12.543099163404559, 12.535185046348568, 12.528451014167224, 12.526216376365808, 12.523986721038538, 12.52957020846424, 12.516221845640812, 12.531812361869928, 12.506326217886588, 12.523986721038538, 12.499783119297652, 12.518434235923753]
+[11-22 14:36:45] Test EbN0=5, FER_DDPM=[0.8752789478225401, 0.8221577717118473, 0.7598455344816767, 0.6894501835466867, 0.6129125878514057, 0.5333732390499498, 0.4537216247803715, 0.3766109359312249, 0.3049929209023594, 0.24048979119603414, 0.18445755678965864, 0.13781836329693775, 0.09990695202685743, 0.07014581764558232, 0.047761848173945784, 0.031524045400351405, 0.020074928620732933, 0.012384989175451807, 0.007385989269578314, 0.0043018754706325305, 0.002438464796686747, 0.0013177710843373493, 0.0007010463729919679, 0.0003706231174698795, 0.00019707737198795182, 0.000124031281375502, 8.922408383534136e-05, 7.059487951807229e-05, 6.373148845381527e-05, 5.833882404618474e-05, 5.343640185742972e-05, 5.294615963855422e-05, 5.2455917419678717e-05, 5.1475432981927714e-05, 5.1475432981927714e-05, 5.0985190763052206e-05, 5.0985190763052206e-05, 5.0494948544176705e-05, 5.0494948544176705e-05, 5.00047063253012e-05, 5.00047063253012e-05, 4.95144641064257e-05, 4.95144641064257e-05, 4.95144641064257e-05]
+[11-22 14:36:45] #It. to zero syndrome: Mean=7.2086799345820785, Std=4.6692184837175725, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [2039808.0]  (1.43 h)
+[11-22 14:36:45] Cum count reached EbN0:6
+[11-22 14:36:45] Test EbN0=6, BER=[4.297355642700345e-08]
+[11-22 14:36:45] Test EbN0=6, BER_DDPM=[0.008942729326466592, 0.0072322272411516255, 0.005746742961433918, 0.004482280772980301, 0.0034272163287772726, 0.0025621098794434394, 0.0018722512460480195, 0.0013352512056925444, 0.0009281527886849806, 0.0006272139315139554, 0.000411896579865548, 0.0002619023396443725, 0.0001614376024489585, 9.610540046171318e-05, 5.521440869232605e-05, 3.0473209994025486e-05, 1.6020872401805557e-05, 7.997213568156007e-06, 3.832910667470039e-06, 1.7850554208139895e-06, 7.875730629795055e-07, 3.487469386960665e-07, 1.5701876386789722e-07, 8.677352740068004e-08, 5.2064116440408024e-08, 3.884148369363774e-08, 3.718865460029145e-08, 3.884148369363774e-08, 3.801506914696459e-08, 4.214714188033031e-08, 3.966789824031088e-08, 3.6362240053618306e-08, 3.966789824031088e-08, 3.6362240053618306e-08, 4.132072733365716e-08, 3.6362240053618306e-08, 4.132072733365716e-08, 3.5535825506945164e-08, 4.297355642700345e-08, 3.884148369363774e-08, 3.966789824031088e-08, 3.966789824031088e-08, 4.049431278698402e-08, 4.297355642700345e-08]
+[11-22 14:36:45] Test EbN0=6, -ln(BER)_DDPM=[4.716914442601171, 4.929208234766493, 5.15912202615122, 5.407623260991573, 5.67600691325637, 5.96692418827604, 6.280613697299957, 6.618635835773415, 6.982314195750736, 7.374222876939504, 7.794738259869292, 8.247538873140481, 8.73139185250395, 9.25006504729525, 9.804286611707962, 10.398662621187464, 11.041618160765246, 11.736417380936857, 12.471886078002322, 13.23606109513959, 14.054309692163597, 14.868919281781787, 15.666900523657313, 16.259964245660278, 16.770789869426267, 17.06377699410774, 17.10726210604748, 17.06377699410774, 17.085283199328703, 16.982098963093474, 17.042723584909908, 17.129734961899537, 17.042723584909908, 17.129734961899537, 17.001901590389654, 17.129734961899537, 17.001901590389654, 17.15272448012424, 16.962680877236373, 17.06377699410774, 17.042723584909908, 17.042723584909908, 17.022104297707173, 16.962680877236373]
+[11-22 14:36:45] Test EbN0=6, FER_DDPM=[0.6509499035237047, 0.5642521327181036, 0.47725677333990374, 0.3935221887479521, 0.31611526117397093, 0.24674162512159534, 0.1872195107707864, 0.13789870468973991, 0.09855491549124513, 0.06817848194629327, 0.04566344652365349, 0.02952476624897604, 0.01845419135905181, 0.011105873534456277, 0.006445052509983617, 0.003583162406563588, 0.0018923273346303502, 0.0009470636327565022, 0.0004535825824288347, 0.0002101919286299406, 9.109650189432726e-05, 3.9098498617653084e-05, 1.5799393303297153e-05, 7.399715850911325e-06, 3.0998809645709605e-06, 1.4999424022117552e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06, 1.2999500819168544e-06]
+[11-22 14:36:45] #It. to zero syndrome: Mean=3.992961970260342, Std=3.827673056549098, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [10000384.0]  (6.99 h)
+[11-22 14:36:45] Line Search Reverse Diffusion
+[11-22 14:36:45] FER count treshold reached EbN0:4
+[11-22 14:36:45] Test EbN0=4, BER=[0.00048457528672626074]
+[11-22 14:36:45] Test EbN0=4, BER_DDPM=[0.0009496325002108281, 0.0004617630239079103, 0.00043853898739247766, 0.0004360683452099848, 0.00043615069994940123, 0.0004369742473435655, 0.0004404331463990555, 0.000443233207539214, 0.00044792742768595044, 0.0004503157151290268, 0.0004519628099173554, 0.0004540216784027661, 0.0004549275805363468, 0.0004576452869370889, 0.0004591276722465846, 0.0004601159291195817, 0.00046258657130207457, 0.0004629983449991567, 0.0004640689566115703, 0.0004653042777028167, 0.0004666219535334795, 0.00046736314618822737, 0.00046818669358239165, 0.00046942201467363806, 0.000470574981025468, 0.000471151464201383, 0.0004709867547225502, 0.00047238678529262947, 0.000474033880080958, 0.0004749397822145387, 0.00047526920117220444, 0.00047543391065103726, 0.0004772457149181987, 0.0004782339717911958, 0.0004790575191853601, 0.0004802104855371901, 0.0004806222592342722, 0.0004806222592342722, 0.0004838340940715129, 0.0004822693540226008, 0.00048309290141676503, 0.00048276348245909935, 0.0004844929319868443, 0.00048457528672626074]
+[11-22 14:36:45] Test EbN0=4, -ln(BER)_DDPM=[6.95943549009565, 7.680458733743094, 7.73206183928914, 7.73771157183126, 7.737522732249922, 7.735636295169082, 7.727751891644933, 7.721414498579915, 7.710879330443805, 7.705561632022926, 7.701910660461045, 7.697365611277083, 7.6953723153375835, 7.689416156586844, 7.686182233538447, 7.684032080407618, 7.678676837334334, 7.677787078400289, 7.67547740339289, 7.6728190057262795, 7.669991149476304, 7.668403987517163, 7.66664342368213, 7.664008376044125, 7.6615552470760475, 7.660330935598237, 7.66068058595145, 7.6577124475873095, 7.654231761859507, 7.652322536251353, 7.6516291751558, 7.651282674805833, 7.647479074092914, 7.6454104644947165, 7.643689885956005, 7.64128603864461, 7.64042892022409, 7.64042892022409, 7.633768490854407, 7.637007774225618, 7.63530158032937, 7.635983708595928, 7.63240771500231, 7.632237748145438]
+[11-22 14:36:45] Test EbN0=4, FER_DDPM=[0.04613759566326531, 0.007314253826530612, 0.0062480070153061226, 0.005929129464285714, 0.005809550382653061, 0.005699936224489796, 0.005650111607142857, 0.005620216836734694, 0.005610251913265306, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.00559032206632653, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143, 0.005580357142857143]
+[11-22 14:36:45] #It. to zero syndrome: Mean=1.260692362882653, Std=3.1162293022770853, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [100352.0]  (0.07 h)
+[11-22 14:36:45] FER count treshold reached EbN0:5
+[11-22 14:36:45] Test EbN0=5, BER=[5.327131570029297e-06]
+[11-22 14:36:45] Test EbN0=5, BER_DDPM=[3.418865501606979e-05, 5.273753498185316e-06, 4.841391116249071e-06, 4.766661815667497e-06, 4.681256900717128e-06, 4.825377694695877e-06, 4.830715501880274e-06, 4.718621551007915e-06, 4.734634972561109e-06, 4.771999622851896e-06, 4.782675237220692e-06, 4.905444802461848e-06, 4.937471645568236e-06, 4.953485067121431e-06, 4.980174103043421e-06, 4.9588228743058285e-06, 5.006863138965412e-06, 4.9908497174122174e-06, 5.0655790179937906e-06, 5.060241210809393e-06, 5.049565596440596e-06, 5.070916825178189e-06, 5.1082814754689756e-06, 5.145646125759762e-06, 5.145646125759762e-06, 5.145646125759762e-06, 5.166997354497354e-06, 5.204362004788141e-06, 5.252402269447724e-06, 5.252402269447724e-06, 5.273753498185316e-06, 5.273753498185316e-06, 5.273753498185316e-06, 5.257740076632122e-06, 5.273753498185316e-06, 5.279091305369715e-06, 5.289766919738511e-06, 5.284429112554112e-06, 5.273753498185316e-06, 5.257740076632122e-06, 5.279091305369715e-06, 5.268415691000918e-06, 5.385847449057676e-06, 5.327131570029297e-06]
+[11-22 14:36:45] Test EbN0=5, -ln(BER)_DDPM=[10.283616693604838, 12.152768210187805, 12.238308457820535, 12.253864327059173, 12.27194391556349, 12.241621547543495, 12.240515964235746, 12.26399384529803, 12.260605925626093, 12.252745132762158, 12.250510494960743, 12.225164785579985, 12.218657170423247, 12.215419175149473, 12.210045707088328, 12.214342169121833, 12.204700958929449, 12.207904378646985, 12.193042109325745, 12.19409640568065, 12.196208338883794, 12.191988923341086, 12.184647516482718, 12.177359613325127, 12.177359613325127, 12.177359613325127, 12.173218820659095, 12.166013436937826, 12.156825010883418, 12.156825010883418, 12.152768210187805, 12.152768210187805, 12.152768210187805, 12.155809266763583, 12.152768210187805, 12.15175657631296, 12.149736373605684, 12.150745964807037, 12.152768210187805, 12.155809266763583, 12.15175657631296, 12.15378086850219, 12.131735887582064, 12.142697631624209]
+[11-22 14:36:45] Test EbN0=5, FER_DDPM=[0.0031602647569444445, 9.752707506613757e-05, 7.815083498677249e-05, 7.36297123015873e-05, 7.104621362433862e-05, 6.910858961640212e-05, 6.910858961640212e-05, 6.846271494708994e-05, 6.781684027777778e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.71709656084656e-05, 6.652509093915344e-05, 6.652509093915344e-05, 6.652509093915344e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05, 6.587921626984127e-05]
+[11-22 14:36:45] #It. to zero syndrome: Mean=0.9238604187334656, Std=0.4389814548984001, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [1548288.0]  (1.12 h)
+[11-22 14:36:45] Cum count reached EbN0:6
+[11-22 14:36:45] Test EbN0=6, BER=[5.784901826712003e-09]
+[11-22 14:36:45] Test EbN0=6, BER_DDPM=[8.041013539129684e-07, 1.0743389106750863e-08, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09, 5.784901826712003e-09]
+[11-22 14:36:45] Test EbN0=6, -ln(BER)_DDPM=[14.033540513631795, 18.348975238356264, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485, 18.968014446762485]
+[11-22 14:36:45] Test EbN0=6, FER_DDPM=[9.619630606184722e-05, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07, 6.999731210321524e-07]
+[11-22 14:36:45] #It. to zero syndrome: Mean=0.7339384167647962, Std=0.44292979317636233, Min=0.0, Max=43.0
+[11-22 14:36:45] # of testing samples: [10000384.0]  (7.26 h)
