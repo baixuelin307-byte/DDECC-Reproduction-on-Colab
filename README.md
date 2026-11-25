@@ -1,7 +1,4 @@
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
- DDECC reproduction
+# DDECC reproduction
 
 Reproduction of *Denoising Diffusion Error Correction Codes* (Choukroun & Wolf, ICLR 2023)
 with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 6 dB.
@@ -10,25 +7,16 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 - Test: per Eb/N0, until > 500 frame errors and > 1e5 frames, or 1e7 frames;
   regular and line-search reverse diffusion; metric −ln(BER), higher is better
 
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
- Regular reverse diffusion: −ln(BER)
+### Regular reverse diffusion: −ln(BER)
 
 | Code | 4 dB | 5 dB | 6 dB |
 |---|---|---|---|
-| BCH(63,36) | 4.72 | 6.41 | 8.79 |
+| BCH(63,36) | 4.71 | 6.46 | 8.94 |
 | BCH(63,45) | 5.69 | 7.83 | 10.65 |
 | BCH(63,51) | 5.25 | 7.09 | 9.24 |
 | POLAR(64,32) | 7.04 | 9.50 | 12.16 |
 | POLAR(64,48) | 5.86 | 7.87 | 10.33 |
-| POLAR(128,64) | 8.81 | 12.66 | 15.85 |
+| POLAR(128,64) | 8.81 | 12.85 | 15.85 |
 | POLAR(128,86) | 7.44 | 10.63 | 14.56 |
 | POLAR(128,96) | 7.18 | 10.01 | 13.19 |
 | LDPC(49,24) | 5.99 | 8.46 | 11.77 |
@@ -38,20 +26,11 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 | MACKAY(96,48) | 8.21 | 11.85 | 15.46 |
 | CCSDS(128,64) | 7.88 | 12.42 | 17.41 |
 
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
- Line-search reverse diffusion: −ln(BER)
+### Line-search reverse diffusion: −ln(BER)
 
 | Code | 4 dB | 5 dB | 6 dB |
 |---|---|---|---|
-| BCH(63,36) | 4.71 | 6.39 | 8.74 |
+| BCH(63,36) | 4.70 | 6.39 | 8.86 |
 | BCH(63,45) | 5.60 | 8.04 | 11.24 |
 | BCH(63,51) | 5.21 | 7.29 | 10.34 |
 | POLAR(64,32) | 6.90 | 9.55 | 12.78 |
@@ -66,25 +45,15 @@ with the code of https://github.com/yoniLc/DDECC, for 14 codes at Eb/N0 = 4, 5, 
 | MACKAY(96,48) | 7.86 | 11.51 | 15.37 |
 | CCSDS(128,64) | 7.66 | 12.05 | 17.44 |
 
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
+Some test points stopped at about 100 frame errors (Main.py's default) instead of the paper's 500; `figures/results.csv` lists the frames and frame errors of every point. CCSDS(128,64) regular 6 dB: 9.9e6 of 1e7 frames.
 
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
- Comparison with the DDECC paper (N = 6, d = 128)
+## Comparison with the DDECC paper (N = 6, d = 128)
 
 ![regular](figures/vs_paper_reg.png)
 
 ![line search](figures/vs_paper_LS.png)
 
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
-#
-¹ fewer than 500 frame errors (stopped at ~100, Main.py's default), ? frame count not in the log, * unfinished (9.9e6 of 1e7 frames). Paper protocol: ≥ 500 frame errors.
-
- Contents
+## Contents
 
 | folder | content |
 |---|---|
